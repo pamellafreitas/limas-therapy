@@ -50,8 +50,8 @@ SECTION 1: HERO
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 10px 24px 36px;
+  margin: -60px auto 0;
+  padding: 0 24px 36px;
   filter: drop-shadow(0 18px 30px rgba(26, 54, 38, 0.08)) drop-shadow(0 4px 12px rgba(26, 54, 38, 0.04));
 }
 .hero-frame {
