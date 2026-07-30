@@ -599,6 +599,7 @@ SECTION 1: HERO
 }
 @media (max-width: 720px) {
   .hero-shell {
+    margin: 10px auto 0;
     padding: 10px 10px 20px;
   }
   .hero-frame {
