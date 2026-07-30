@@ -3175,6 +3175,15 @@ FOOTER STYLES
   color: #D4AF37 !important;
   font-weight: 600;
 }
+.footer-location-tag a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+.footer-location-tag a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
 .footer-location-tag i,
 .footer-location-tag svg {
   width: 14px;
