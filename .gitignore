@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Development files
+*.py
+*.docx
+*.txt
+audit.py
+convert_avif.py
+check_images.py
+
+# Raw photos
+fotos/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
