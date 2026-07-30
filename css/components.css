@@ -1323,7 +1323,7 @@ SECTION 1.9: DIA DA NOIVA
 }
 
 /* =========================================================
-SECTION 1.95: GESTANTE & PÓS-PARTO
+SECTION 1.95: GESTANTE & PÃ“S-PARTO
 ========================================================= */
 .gestante-pos-parto {
   position: relative;
@@ -2092,7 +2092,7 @@ SECTION 1.98: DEPOIMENTOS
 }
 
 /* =========================================================
-SECTION 1.99: LINHA LIMMÉA
+SECTION 1.99: LINHA LIMMÃ‰A
 ========================================================= */
 .linha-limmea {
   position: relative;
@@ -5112,7 +5112,7 @@ SCROLL REVEAL ANIMATIONS (INTERSECTION OBSERVER)
 .delay-600 { transition-delay: 600ms; }
 
 /* =========================================================
-HERO OPÇÃO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
+HERO OPÃ‡ÃƒO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
 ========================================================= */
 .hero-sobre-split {
   position: relative;
@@ -5301,7 +5301,7 @@ HERO OPÇÃO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
     inset: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(245, 241, 231, 0.94) 0%, rgba(245, 241, 231, 0.84) 60%, rgba(245, 241, 231, 0.70) 100%);
+    background: linear-gradient(180deg, rgba(245, 241, 231, 0.70) 0%, rgba(245, 241, 231, 0.55) 60%, rgba(245, 241, 231, 0.40) 100%);
     z-index: 1;
   }
 
@@ -5506,7 +5506,7 @@ SECTION: COMO NASCEU O LIMA'S THERAPY (LIGHT THEME)
 }
 
 /* =========================================================
-SECTION: NOSSA HISTÓRIA
+SECTION: NOSSA HISTÃ“RIA
 ========================================================= */
 .nossa-historia {
   position: relative;
@@ -5628,7 +5628,7 @@ SECTION: NOSSA HISTÓRIA
 }
 
 /* =========================================================
-SECTION: MISSÃO, VISÃO E VALORES (LIGHT THEME)
+SECTION: MISSÃƒO, VISÃƒO E VALORES (LIGHT THEME)
 ========================================================= */
 .valores {
   position: relative;
@@ -6884,7 +6884,7 @@ SECTION: MASSOTERAPIA
 }
 
 /* =========================================================
-SECTION: FISIOTERAPIA REABILITATÓRIA
+SECTION: FISIOTERAPIA REABILITATÃ“RIA
 ========================================================= */
 .fisioterapia-section {
   position: relative;
@@ -7152,7 +7152,7 @@ SECTION: FISIOTERAPIA REABILITATÓRIA
 }
 
 /* =========================================================
-SECTION: TERAPIAS DE SPA E ESTÉTICA NATURAL
+SECTION: TERAPIAS DE SPA E ESTÃ‰TICA NATURAL
 ========================================================= */
 .spa-estetica-section {
   position: relative;
@@ -7404,7 +7404,7 @@ SECTION: TERAPIAS DE SPA E ESTÉTICA NATURAL
   transform: translateX(4px);
 }
 
-/* Responsividade Spa & Estética Natural */
+/* Responsividade Spa & EstÃ©tica Natural */
 @media (max-width: 1024px) {
   .spa-estetica-grid {
     grid-template-columns: 1fr;
@@ -7445,7 +7445,7 @@ SECTION: TERAPIAS DE SPA E ESTÉTICA NATURAL
 }
 
 /* =========================================================
-SECTION: DEPILAÇÃO NA CERA
+SECTION: DEPILAÃ‡ÃƒO NA CERA
 ========================================================= */
 .depilacao-section {
   position: relative;
@@ -7679,7 +7679,7 @@ SECTION: DEPILAÇÃO NA CERA
   color: #D4AF37;
 }
 
-/* Responsividade Depilação */
+/* Responsividade DepilaÃ§Ã£o */
 @media (max-width: 1024px) {
   .depilacao-grid {
     grid-template-columns: 1fr;
@@ -7994,7 +7994,7 @@ SECTION: COMO ESCOLHEMOS O TRATAMENTO
 }
 
 /* =========================================================
-SECTION: QUAL TRATAMENTO É INDICADO PARA VOCÊ
+SECTION: QUAL TRATAMENTO Ã‰ INDICADO PARA VOCÃŠ
 ========================================================= */
 .qual-tratamento-section {
   position: relative;
@@ -8293,7 +8293,7 @@ SECTION: QUAL TRATAMENTO É INDICADO PARA VOCÊ
 }
 
 /* =========================================================
-SECTION: SOBRE MASSOTERAPIA (PÁGINA DEDICADA)
+SECTION: SOBRE MASSOTERAPIA (PÃGINA DEDICADA)
 ========================================================= */
 .sobre-massoterapia-section {
   position: relative;
@@ -8612,7 +8612,7 @@ SECTION: SOBRE MASSOTERAPIA (PÁGINA DEDICADA)
 }
 
 /* =========================================================
-SECTION: 12 MASSAGENS TERAPÊUTICAS
+SECTION: 12 MASSAGENS TERAPÃŠUTICAS
 ========================================================= */
 .doze-massagens-section {
   position: relative;
@@ -8969,7 +8969,7 @@ SECTION: 12 MASSAGENS TERAPÊUTICAS
 }
 
 /* =========================================================
-SECTIONS: BENEFÍCIOS, COMO FUNCIONA E PARA QUEM É INDICADO
+SECTIONS: BENEFÃCIOS, COMO FUNCIONA E PARA QUEM Ã‰ INDICADO
 ========================================================= */
 .beneficios-massoterapia-section {
   position: relative;
@@ -9161,7 +9161,7 @@ SECTIONS: BENEFÍCIOS, COMO FUNCIONA E PARA QUEM É INDICADO
 }
 
 /* =========================================================
-SECTION: COMO FUNCIONA A SESSÃO
+SECTION: COMO FUNCIONA A SESSÃƒO
 ========================================================= */
 .como-funciona-sessao-section {
   position: relative;
@@ -9377,7 +9377,7 @@ SECTION: COMO FUNCIONA A SESSÃO
 }
 
 /* =========================================================
-SECTION: PARA QUEM É INDICADO
+SECTION: PARA QUEM Ã‰ INDICADO
 ========================================================= */
 .para-quem-indicado-section {
   position: relative;
@@ -9566,7 +9566,7 @@ SECTION: PARA QUEM É INDICADO
   height: 22px;
 }
 
-/* Responsividade das 3 Seções */
+/* Responsividade das 3 SeÃ§Ãµes */
 @media (max-width: 992px) {
   .beneficios-grid,
   .como-funciona-sessao-content-grid {
@@ -9601,7 +9601,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: SOBRE FISIOTERAPIA REABILITATÓRIA (#sobre-fisio-reablitacao)
+   SECTION: SOBRE FISIOTERAPIA REABILITATÃ“RIA (#sobre-fisio-reablitacao)
    ========================================================================== */
 .sobre-fisio-reabilitacao-section {
   position: relative;
@@ -9979,7 +9979,7 @@ SECTION: PARA QUEM É INDICADO
   text-align: center;
 }
 
-/* Responsividade de Sobre Fisioterapia Reabilitatória */
+/* Responsividade de Sobre Fisioterapia ReabilitatÃ³ria */
 @media (max-width: 992px) {
   .sobre-fisio-grid {
     grid-template-columns: 1fr;
@@ -10060,7 +10060,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: O QUE É FISIOTERAPIA REABILITATÓRIA (#o-que-e-fisio-reabilitatotia)
+   SECTION: O QUE Ã‰ FISIOTERAPIA REABILITATÃ“RIA (#o-que-e-fisio-reabilitatotia)
    ========================================================================== */
 .oq-fisio-reabilitatoria-section {
   position: relative;
@@ -10362,7 +10362,7 @@ SECTION: PARA QUEM É INDICADO
   background: rgba(212, 175, 55, 0.3);
 }
 
-/* Responsividade de O Que É Fisioterapia Reabilitatória */
+/* Responsividade de O Que Ã‰ Fisioterapia ReabilitatÃ³ria */
 @media (max-width: 992px) {
   .oq-fisio-grid {
     grid-template-columns: 1fr;
@@ -10406,7 +10406,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: QUANDO É INDICADA (#quando-e-indicado)
+   SECTION: QUANDO Ã‰ INDICADA (#quando-e-indicado)
    ========================================================================== */
 .quando-indicado-section {
   position: relative;
@@ -10673,7 +10673,7 @@ SECTION: PARA QUEM É INDICADO
   text-align: center;
 }
 
-/* Responsividade de Quando é Indicado */
+/* Responsividade de Quando Ã© Indicado */
 @media (max-width: 992px) {
   .quando-cta-banner {
     flex-direction: column;
@@ -11024,7 +11024,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: TÉCNICAS UTILIZADAS (#tecnicas-utilizadas)
+   SECTION: TÃ‰CNICAS UTILIZADAS (#tecnicas-utilizadas)
    ========================================================================== */
 .tecnicas-utilizadas-section {
   position: relative;
@@ -11360,7 +11360,7 @@ SECTION: PARA QUEM É INDICADO
   text-align: center;
 }
 
-/* Responsividade de Técnicas Utilizadas */
+/* Responsividade de TÃ©cnicas Utilizadas */
 @media (max-width: 992px) {
   .tu-grid {
     grid-template-columns: 1fr;
@@ -11421,7 +11421,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: BENEFÍCIOS DA FISIOTERAPIA REABILITATÓRIA (#beneficios)
+   SECTION: BENEFÃCIOS DA FISIOTERAPIA REABILITATÃ“RIA (#beneficios)
    ========================================================================== */
 .beneficios-fisio-section {
   position: relative;
@@ -11708,7 +11708,7 @@ SECTION: PARA QUEM É INDICADO
   text-align: center;
 }
 
-/* Responsividade de Benefícios */
+/* Responsividade de BenefÃ­cios */
 @media (max-width: 992px) {
   .ben-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -12141,7 +12141,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: CONHEÇA OUTROS TRATAMENTOS (#outros-tratamentos)
+   SECTION: CONHEÃ‡A OUTROS TRATAMENTOS (#outros-tratamentos)
    ========================================================================== */
 .outros-tratamentos-section {
   position: relative;
@@ -12504,7 +12504,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: AGENDE SUA AVALIAÇÃO (#agendar-avaliacao)
+   SECTION: AGENDE SUA AVALIAÃ‡ÃƒO (#agendar-avaliacao)
    ========================================================================== */
 .agendar-avaliacao-section {
   position: relative;
@@ -12643,7 +12643,7 @@ SECTION: PARA QUEM É INDICADO
   flex-shrink: 0;
 }
 
-/* Responsividade de Agendar Avaliação */
+/* Responsividade de Agendar AvaliaÃ§Ã£o */
 @media (max-width: 640px) {
   .agendar-avaliacao-section {
     padding: 60px 0;
@@ -12875,7 +12875,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: SOBRE SPA E ESTÉTICA NATURAL (#sobre-estetica)
+   SECTION: SOBRE SPA E ESTÃ‰TICA NATURAL (#sobre-estetica)
    ========================================================================== */
 .sobre-estetica-section {
   position: relative;
@@ -13253,7 +13253,7 @@ SECTION: PARA QUEM É INDICADO
   text-align: center;
 }
 
-/* Responsividade de Sobre Estética */
+/* Responsividade de Sobre EstÃ©tica */
 @media (max-width: 992px) {
   .se-grid {
     grid-template-columns: 1fr;
@@ -13311,7 +13311,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: NOSSOS PROTOCOLOS DE ESTÉTICA (#protocolos-estetica)
+   SECTION: NOSSOS PROTOCOLOS DE ESTÃ‰TICA (#protocolos-estetica)
    ========================================================================== */
 .protocolos-estetica-section {
   position: relative;
@@ -13573,7 +13573,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: CONHEÇA NOSSOS PACOTES DE SPA (#pacotes-spa)
+   SECTION: CONHEÃ‡A NOSSOS PACOTES DE SPA (#pacotes-spa)
    ========================================================================== */
 .pacotes-spa-section {
   position: relative;
@@ -13880,7 +13880,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: ESTÉTICA NATURAL: BELEZA COM EQUILÍBRIO (#estetica-equilibrio)
+   SECTION: ESTÃ‰TICA NATURAL: BELEZA COM EQUILÃBRIO (#estetica-equilibrio)
    ========================================================================== */
 .estetica-equilibrio-section {
   position: relative;
@@ -14108,7 +14108,7 @@ SECTION: PARA QUEM É INDICADO
   flex-shrink: 0;
 }
 
-/* Responsividade de Estética Equilíbrio */
+/* Responsividade de EstÃ©tica EquilÃ­brio */
 @media (max-width: 992px) {
   .eq-grid {
     grid-template-columns: 1fr;
@@ -14135,7 +14135,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: UMA EXPERIÊNCIA QUE ENVOLVE TODOS OS SENTIDOS (#experiencia-sentidos)
+   SECTION: UMA EXPERIÃŠNCIA QUE ENVOLVE TODOS OS SENTIDOS (#experiencia-sentidos)
    ========================================================================== */
 .experiencia-sentidos-section {
   position: relative;
@@ -14298,7 +14298,7 @@ SECTION: PARA QUEM É INDICADO
   flex-shrink: 0;
 }
 
-/* Responsividade de Experiência Sentidos */
+/* Responsividade de ExperiÃªncia Sentidos */
 @media (max-width: 640px) {
   .experiencia-sentidos-section {
     padding: 60px 0;
@@ -14436,7 +14436,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: SOBRE DEPILAÇÃO (#sobre-depilacao)
+   SECTION: SOBRE DEPILAÃ‡ÃƒO (#sobre-depilacao)
    ========================================================================== */
 .sobre-depilacao-section {
   position: relative;
@@ -14677,7 +14677,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: COMO FUNCIONA NOSSO PROTOCOLO DE DEPILAÇÃO (#como-funciona-depilacao)
+   SECTION: COMO FUNCIONA NOSSO PROTOCOLO DE DEPILAÃ‡ÃƒO (#como-funciona-depilacao)
    ========================================================================== */
 .como-funciona-depilacao-section {
   position: relative;
@@ -14943,7 +14943,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: ÁREAS DE DEPILAÇÃO (#areas-depilacao)
+   SECTION: ÃREAS DE DEPILAÃ‡ÃƒO (#areas-depilacao)
    ========================================================================== */
 .areas-depilacao-section {
   position: relative;
@@ -15141,7 +15141,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: COMBOS DE DEPILAÇÃO (#combos-depilacao)
+   SECTION: COMBOS DE DEPILAÃ‡ÃƒO (#combos-depilacao)
    ========================================================================== */
 .combos-depilacao-section {
   position: relative;
@@ -15334,7 +15334,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: ASSINATURA MENSAL DE DEPILAÇÃO (#assinatura-depilacao)
+   SECTION: ASSINATURA MENSAL DE DEPILAÃ‡ÃƒO (#assinatura-depilacao)
    ========================================================================== */
 .assinatura-depilacao-section {
   position: relative;
@@ -15526,7 +15526,7 @@ SECTION: PARA QUEM É INDICADO
 }
 
 /* ==========================================================================
-   SECTION: CONHEÇA OUTROS TRATAMENTOS (#outros-tratamentos-depilacao)
+   SECTION: CONHEÃ‡A OUTROS TRATAMENTOS (#outros-tratamentos-depilacao)
    ========================================================================== */
 .outros-tratamentos-depilacao-section {
   position: relative;
@@ -16233,7 +16233,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     
     /* Layout: Desktop (Artigo + Sidebar) */
     .blog-main {
-      max-width: 1140px; /* Largura ideal para caber conteúdo e menu lateral */
+      max-width: 1140px; /* Largura ideal para caber conteÃºdo e menu lateral */
       margin: 0 auto;
       padding: 40px 20px 80px;
       display: flex;
@@ -16244,7 +16244,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     
     .blog-article {
       flex: 1;
-      max-width: 760px; /* Texto não fica muito largo */
+      max-width: 760px; /* Texto nÃ£o fica muito largo */
       font-family: var(--font-sans);
       font-size: 1.125rem;
       line-height: 1.8;
@@ -16255,7 +16255,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
       width: 320px;
       flex-shrink: 0;
       position: sticky;
-      top: 100px; /* Fixo ao rolar a página em telas grandes */
+      top: 100px; /* Fixo ao rolar a pÃ¡gina em telas grandes */
     }
 
     .blog-article h2 {
@@ -16372,9 +16372,9 @@ STYLES EXTRACTED FROM HTML <style> TAGS
         position: static;
       }
       
-      /* No mobile, escondemos o TOC padrão e criamos o botão flutuante */
+      /* No mobile, escondemos o TOC padrÃ£o e criamos o botÃ£o flutuante */
       .blog-toc {
-        display: none; /* Fica escondido até o clique */
+        display: none; /* Fica escondido atÃ© o clique */
         position: fixed;
         bottom: 90px;
         right: 20px;
@@ -16392,8 +16392,8 @@ STYLES EXTRACTED FROM HTML <style> TAGS
       .toc-mobile-btn {
         display: flex;
         position: fixed;
-        bottom: 20px; /* Acima do botão WhatsApp (se for na direita) ou deixamos na esquerda */
-        left: 20px;   /* Vamos colocar na esquerda para não conflitar com o WhatsApp */
+        bottom: 20px; /* Acima do botÃ£o WhatsApp (se for na direita) ou deixamos na esquerda */
+        left: 20px;   /* Vamos colocar na esquerda para nÃ£o conflitar com o WhatsApp */
         width: 56px;
         height: 56px;
         border-radius: 50%;
@@ -16408,7 +16408,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
         transition: transform 0.3s ease;
       }
       
-      /* Ajuste a posição do modal TOC se o botão ficar na esquerda */
+      /* Ajuste a posiÃ§Ã£o do modal TOC se o botÃ£o ficar na esquerda */
       .blog-toc {
         bottom: 90px;
         left: 20px;
@@ -16862,7 +16862,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 /* Extracted from clube-lt.html */
 /* Estilos Responsivos para o Clube LT */
 
-    /* Ajustes Tipográficos Finos */
+    /* Ajustes TipogrÃ¡ficos Finos */
     .clube-section h2, .clube-section h3 {
       font-family: 'Playfair Display', Georgia, serif !important;
       font-weight: 600;
@@ -16998,7 +16998,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     
     /* Layout: Desktop (Artigo + Sidebar) */
     .blog-main {
-      max-width: 1140px; /* Largura ideal para caber conteúdo e menu lateral */
+      max-width: 1140px; /* Largura ideal para caber conteÃºdo e menu lateral */
       margin: 0 auto;
       padding: 40px 20px 80px;
       display: flex;
@@ -17009,7 +17009,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     
     .blog-article {
       flex: 1;
-      max-width: 760px; /* Texto não fica muito largo */
+      max-width: 760px; /* Texto nÃ£o fica muito largo */
       font-family: var(--font-sans);
       font-size: 1.125rem;
       line-height: 1.8;
@@ -17020,7 +17020,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
       width: 320px;
       flex-shrink: 0;
       position: sticky;
-      top: 100px; /* Fixo ao rolar a página em telas grandes */
+      top: 100px; /* Fixo ao rolar a pÃ¡gina em telas grandes */
     }
 
     .blog-article h2 {
@@ -17137,9 +17137,9 @@ STYLES EXTRACTED FROM HTML <style> TAGS
         position: static;
       }
       
-      /* No mobile, escondemos o TOC padrão e criamos o botão flutuante */
+      /* No mobile, escondemos o TOC padrÃ£o e criamos o botÃ£o flutuante */
       .blog-toc {
-        display: none; /* Fica escondido até o clique */
+        display: none; /* Fica escondido atÃ© o clique */
         position: fixed;
         bottom: 90px;
         right: 20px;
@@ -17157,8 +17157,8 @@ STYLES EXTRACTED FROM HTML <style> TAGS
       .toc-mobile-btn {
         display: flex;
         position: fixed;
-        bottom: 20px; /* Acima do botão WhatsApp (se for na direita) ou deixamos na esquerda */
-        left: 20px;   /* Vamos colocar na esquerda para não conflitar com o WhatsApp */
+        bottom: 20px; /* Acima do botÃ£o WhatsApp (se for na direita) ou deixamos na esquerda */
+        left: 20px;   /* Vamos colocar na esquerda para nÃ£o conflitar com o WhatsApp */
         width: 56px;
         height: 56px;
         border-radius: 50%;
@@ -17173,7 +17173,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
         transition: transform 0.3s ease;
       }
       
-      /* Ajuste a posição do modal TOC se o botão ficar na esquerda */
+      /* Ajuste a posiÃ§Ã£o do modal TOC se o botÃ£o ficar na esquerda */
       .blog-toc {
         bottom: 90px;
         left: 20px;
@@ -17346,15 +17346,15 @@ html, body {
       width: 100% !important;
     }
 
-    #hero {
+    .fundadora-hero {
       position: relative;
-      background: url('img/gabrielle-lima-massoterapeuta-fisioterapeuta.avif') no-repeat !important;
+      background: url('../img/gabrielle-lima-massoterapeuta-fisioterapeuta.JPEG') no-repeat !important;
       background-size: cover !important;
       background-position: right 25% center !important;
       padding-top: 160px !important;
       padding-bottom: 120px !important;
     }
-    #hero::after {
+    .fundadora-hero::after {
       content: "";
       position: absolute;
       inset: 0;
@@ -17367,44 +17367,44 @@ html, body {
       z-index: 1;
       pointer-events: none;
     }
-    #hero .sobre-shell {
+    .fundadora-hero .sobre-shell {
       position: relative;
       z-index: 2;
     }
-    #hero .sobre-grid {
+    .fundadora-hero .sobre-grid {
       grid-template-columns: 1.15fr 0.85fr;
     }
-    #hero .sobre-visual {
+    .fundadora-hero .sobre-visual {
       display: none !important;
     }
 
     @media (max-width: 1080px) {
-      #hero {
+      .fundadora-hero {
         background-position: center !important;
         padding-top: 100px !important;
         padding-bottom: 60px !important;
       }
-      #hero::after {
+      .fundadora-hero::after {
         background: linear-gradient(180deg, 
           rgba(245, 241, 231, 0.96) 0%, 
           rgba(245, 241, 231, 0.88) 60%, 
           rgba(245, 241, 231, 0.50) 100%
         ) !important;
       }
-      #hero .sobre-grid {
+      .fundadora-hero .sobre-grid {
         grid-template-columns: 1fr;
       }
-      #hero .sobre-title {
+      .fundadora-hero .sobre-title {
         font-size: 2.2rem;
         line-height: 1.2;
       }
     }
     @media (max-width: 480px) {
-      #hero {
+      .fundadora-hero {
         padding-top: 80px !important;
         padding-bottom: 40px !important;
       }
-      #hero .sobre-title {
+      .fundadora-hero .sobre-title {
         font-size: 1.8rem;
       }
     }
