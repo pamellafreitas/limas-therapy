@@ -51,7 +51,7 @@ SECTION 1: HERO
   z-index: 2;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px 24px 36px;
+  padding: 10px 24px 36px;
   filter: drop-shadow(0 18px 30px rgba(26, 54, 38, 0.08)) drop-shadow(0 4px 12px rgba(26, 54, 38, 0.04));
 }
 .hero-frame {
@@ -99,7 +99,7 @@ SECTION 1: HERO
 }
 .hero-nav-wrap {
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -210,7 +210,7 @@ SECTION 1: HERO
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 125px 40px 65px;
+  padding: 95px 40px 65px;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 42px;
