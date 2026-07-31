@@ -50,7 +50,7 @@ SECTION 1: HERO
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  margin: -60px auto 0;
+  margin: 0 auto;
   padding: 0 24px 36px;
   filter: drop-shadow(0 18px 30px rgba(26, 54, 38, 0.08)) drop-shadow(0 4px 12px rgba(26, 54, 38, 0.04));
 }
@@ -114,7 +114,7 @@ SECTION 1: HERO
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 16px;
   padding: 10px 14px 10px 20px;
   background: rgba(252, 250, 247, 0.94);
   backdrop-filter: blur(16px);
@@ -832,6 +832,7 @@ SECTION 1.5: SOBRE LIMA'S THERAPY
   gap: 20px;
   padding-top: 24px;
   border-top: 1px solid rgba(212, 175, 55, 0.3);
+  margin-bottom: 32px;
 }
 .sobre-pillar-item {
   display: flex;
@@ -917,6 +918,9 @@ SECTION 1.8: TRATAMENTOS LIMA'S THERAPY
   padding: 100px 0;
   background: #F5F1E7;
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
 }
 .tratamentos-shell {
   max-width: 1280px;
@@ -1332,6 +1336,9 @@ SECTION 1.95: GESTANTE & PÃ“S-PARTO
   padding: 100px 0;
   background: #F5F1E7;
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
 }
 .gestante-shell {
   max-width: 1280px;
@@ -1576,6 +1583,8 @@ SECTION 1.96: COMO FUNCIONA
     url('../img/fundo-hero.png') center/cover no-repeat fixed !important;
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
 }
 .funciona-shell {
   max-width: 1280px;
@@ -1733,6 +1742,9 @@ SECTION 1.97: CLUBE LT
   padding: 100px 0;
   background: linear-gradient(180deg, #EDE9DF 0%, #F5F1E7 100%);
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
 }
 .clube-shell {
   max-width: 1280px;
@@ -1980,6 +1992,8 @@ SECTION 1.98: DEPOIMENTOS
   background: #F5F1E7;
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
 }
 .depoimentos-shell {
   max-width: 1280px;
@@ -2103,6 +2117,9 @@ SECTION 1.99: LINHA LIMMÃ‰A
     linear-gradient(180deg, rgba(237, 233, 223, 0.70) 0%, rgba(245, 241, 231, 0.62) 100%),
     url('../img/fundo-hero.png') center/cover no-repeat fixed !important;
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
 }
 .limmea-shell {
   max-width: 1280px;
@@ -2322,6 +2339,8 @@ SECTION 2.0: FAQ (PERGUNTAS FREQUENTES)
     url('../img/fundo-hero.png') center/cover no-repeat fixed !important;
   border-bottom: 1px solid rgba(212, 175, 55, 0.25);
   overflow: hidden;
+
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
 }
 .faq-shell {
   max-width: 900px;
@@ -2862,18 +2881,21 @@ LOGO, NAV ACTIONS & MEGA MENU STYLES
 }
 
 .hero-brand-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
   overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.5);
-  box-shadow: 0 4px 12px rgba(26, 54, 38, 0.15);
   flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
 }
 .hero-brand-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 .hero-brand {
   display: flex;
@@ -2988,18 +3010,21 @@ FOOTER STYLES
   text-decoration: none;
 }
 .footer-brand-logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 999px;
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
   overflow: hidden;
-  border: 1px solid #D4AF37;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
 }
 .footer-brand-logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 .hero-brand-name {
   display: block;
@@ -6388,7 +6413,7 @@ SECTION: O QUE OFERECEMOS
 }
 
 .oferecemos-intro-card {
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(245, 241, 231, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(212, 175, 55, 0.28);
@@ -6839,7 +6864,7 @@ SECTION: MASSOTERAPIA
   font-weight: 700;
   font-size: 1rem;
   border: 1px solid rgba(212, 175, 55, 0.4);
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(14, 36, 24, 0.2);
   transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
@@ -7051,7 +7076,7 @@ SECTION: FISIOTERAPIA REABILITATÃ“RIA
   font-weight: 700;
   font-size: 1rem;
   border: 1px solid rgba(212, 175, 55, 0.4);
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(14, 36, 24, 0.2);
   transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
@@ -7390,7 +7415,7 @@ SECTION: TERAPIAS DE SPA E ESTÃ‰TICA NATURAL
   font-weight: 700;
   font-size: 1rem;
   border: 1px solid rgba(212, 175, 55, 0.4);
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(14, 36, 24, 0.2);
   transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
@@ -7612,7 +7637,7 @@ SECTION: DEPILAÃ‡ÃƒO NA CERA
   font-weight: 700;
   font-size: 1rem;
   border: 1px solid rgba(212, 175, 55, 0.4);
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(14, 36, 24, 0.2);
   transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
@@ -7808,7 +7833,7 @@ SECTION: COMO ESCOLHEMOS O TRATAMENTO
 }
 
 .como-escolhemos-intro-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(245, 241, 231, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(212, 175, 55, 0.28);
@@ -8573,7 +8598,7 @@ SECTION: SOBRE MASSOTERAPIA (PÃGINA DEDICADA)
   color: #0E2418;
   font-weight: 700;
   font-size: 0.92rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 8px 20px rgba(170, 140, 44, 0.25);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -8933,7 +8958,7 @@ SECTION: 12 MASSAGENS TERAPÃŠUTICAS
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   white-space: nowrap;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
@@ -9559,7 +9584,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 800;
   font-size: 1.05rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 12px 30px rgba(170, 140, 44, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -9965,7 +9990,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 1rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -10659,7 +10684,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -10967,7 +10992,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -11346,7 +11371,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -11694,7 +11719,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -12065,7 +12090,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -12378,7 +12403,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   padding: 14px 22px;
   background: rgba(212, 175, 55, 0.12);
   border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 14px;
+  border-radius: 0;
   color: #E5C76B;
   font-size: 0.94rem;
   font-weight: 700;
@@ -12437,7 +12462,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -12633,7 +12658,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 1.05rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 12px 30px rgba(170, 140, 44, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -13239,7 +13264,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -13536,7 +13561,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   padding: 12px 18px;
   background: rgba(14, 36, 24, 0.04);
   border: 1px solid rgba(212, 175, 55, 0.3);
-  border-radius: 999px;
+  border-radius: 0;
   color: #0E2418;
   font-weight: 700;
   font-size: 0.88rem;
@@ -13787,7 +13812,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   padding: 14px 20px;
   background: rgba(212, 175, 55, 0.12);
   border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 999px;
+  border-radius: 0;
   color: #F5F1E7;
   font-weight: 700;
   font-size: 0.9rem;
@@ -13850,7 +13875,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -14184,7 +14209,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
 }
 
 .es-card {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(245, 241, 231, 0.95);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 32px;
@@ -14288,7 +14313,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 1.05rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 12px 30px rgba(170, 140, 44, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -14651,7 +14676,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -15324,7 +15349,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 1.02rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -15501,7 +15526,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 1.05rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 12px 30px rgba(170, 140, 44, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -15735,7 +15760,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #F5F1E7;
   font-weight: 700;
   font-size: 0.95rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   border: 1px solid rgba(212, 175, 55, 0.35);
   box-shadow: 0 8px 20px rgba(14, 36, 24, 0.15);
@@ -15973,7 +15998,7 @@ SECTION: PARA QUEM Ã‰ INDICADO
   color: #0E2418;
   font-weight: 700;
   font-size: 0.98rem;
-  border-radius: 999px;
+  border-radius: 0;
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(170, 140, 44, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -16077,7 +16102,7 @@ CONTATOS.HTML SPECIFIC STYLES
   background: #c49a45;
   color: #1a3626;
   padding: 16px 24px;
-  border-radius: 30px;
+  border-radius: 0;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -16715,7 +16740,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     .blog-category-btn {
       white-space: nowrap;
       padding: 10px 20px;
-      border-radius: 50px;
+      border-radius: 0;
       background: var(--blog-surface);
       border: 1px solid var(--blog-border);
       color: var(--blog-text);
@@ -16858,7 +16883,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
       background: transparent;
       border: 1px solid var(--blog-gold);
       color: var(--blog-dark);
-      border-radius: 50px;
+      border-radius: 0;
       font-size: 0.95rem;
       font-weight: 700;
       cursor: pointer;
@@ -16914,7 +16939,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
     .clube-img-tall { height: 750px; }
     
     .clube-planos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; align-items: stretch; }
-    .clube-plano-card { background: white; color: var(--blog-dark); border-radius: 16px; padding: 40px; text-align: center; position: relative; border: 1px solid var(--color-stone-200); }
+    .clube-plano-card { background: #F5F1E7; color: var(--blog-dark); border-radius: 16px; padding: 40px; text-align: center; position: relative; border: 1px solid var(--color-stone-200); }
     .clube-plano-premium { background: var(--blog-gold); transform: scale(1.05); box-shadow: 0 20px 40px rgba(0,0,0,0.3); z-index: 2; border: none; }
     
     .clube-items-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
@@ -17866,7 +17891,10 @@ html, body {
 .home-blog-section {
       padding: 100px 0;
       background-color: #FFFFFF;
-    }
+    
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
     .home-blog-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -18119,7 +18147,8 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-751149 { display: inline-block; width: 16px; margin-right: 8px; vertical-align: middle; }
 .ut-custom-a66974 { color: var(--blog-gold); font-weight: bold; }
 .ut-custom-837c5d { display: flex; flex-wrap: wrap; gap: 16px; }
-.ut-custom-122a29 { background: transparent; color: var(--color-stone-950); border: 1px solid var(--color-stone-950); }
+.ut-custom-122a29 { background: transparent; color: #FAF8F5; border: 1.5px solid rgba(250, 248, 245, 0.5); display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; transition: background 0.25s ease, border-color 0.25s ease; }
+.ut-custom-122a29:hover { background: rgba(250, 248, 245, 0.1); border-color: rgba(250, 248, 245, 0.8); }
 .ut-custom-6363c8 { background: rgba(212,175,55,0.1); color: var(--blog-gold); border-color: rgba(212,175,55,0.3); }
 .ut-custom-28547a { background: var(--blog-gold); }
 .ut-icon-14-inline { width: 14px; height: 14px; margin-right: 4px; display: inline; }
@@ -18148,7 +18177,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-208fc3 { flex: 1 1 400px; }
 .ut-custom-fd5240 { width: 100%; height: auto; max-height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
 .bg-custom-a5ff83 { padding: 100px 0; background-image: url('img/fundo-hero.avif'); background-size: cover; background-position: center; position: relative; }
-.ut-custom-d5fab0 { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.75); z-index: 1; }
+.ut-custom-d5fab0 { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(245, 241, 231, 0.82); z-index: 1; }
 .ut-custom-e8100d { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 2; }
 .ut-custom-44d0a9 { max-width: 750px; text-align: left; }
 .ut-custom-0871ea { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.4rem); color: #1A2F25; font-weight: 400; line-height: 1.3; margin-bottom: 20px; text-align: left; }
@@ -18164,7 +18193,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-243682 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2rem, 4vw, 2.6rem); color: #1A2F25; font-weight: 400; margin-bottom: 16px; }
 .ut-divider-gold { width: 50px; height: 1px; background-color: #D4AF37; margin: 0 auto; }
 .ut-custom-b9aa98 { margin-bottom: 50px; }
-.ut-custom-c76443 { background: white; border-radius: 16px; padding: 45px 35px; border: 1.5px solid rgba(212, 175, 55, 0.4) !important; box-shadow: 0 10px 30px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; }
+.ut-custom-c76443 { background: #F5F1E7; border-radius: 16px; padding: 45px 35px; border: 1.5px solid rgba(212, 175, 55, 0.4) !important; box-shadow: 0 10px 30px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; }
 .ut-custom-29813d { font-family: 'Playfair Display', Georgia, serif; font-size: 1.6rem; color: #1A2F25; font-weight: 500; margin-bottom: 20px; }
 .ut-custom-739513 { font-family: 'Urbanist', sans-serif; font-size: 1.05rem; color: #605A56; line-height: 1.6; margin-bottom: 24px; min-height: 80px; }
 .ut-custom-644928 { background: rgba(212, 175, 55, 0.08); border-radius: 8px; padding: 12px; font-family: 'Urbanist', sans-serif; font-weight: 700; font-size: 1.15rem; color: #D4AF37; text-transform: uppercase; letter-spacing: 1px; }
@@ -18180,7 +18209,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .bg-custom-07490b { padding: 100px 0; background-image: url('img/fundo-hero-esquerda.avif'); background-size: cover; background-position: left center; position: relative; }
 .ut-text-center-mb60 { text-align: center; margin-bottom: 60px; }
 .ut-custom-50cffa { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; text-align: center; margin-bottom: 40px; }
-.ut-custom-f3002e { background: #FFFFFF; border: 1.5px solid rgba(212, 175, 55, 0.3) !important; border-radius: 16px; padding: 40px 30px; box-shadow: 0 10px 30px rgba(26, 47, 37, 0.03); display: flex; flex-direction: column; align-items: center; transition: transform 0.3s ease; }
+.ut-custom-f3002e { background: #F5F1E7; border: 1.5px solid rgba(212, 175, 55, 0.3) !important; border-radius: 16px; padding: 40px 30px; box-shadow: 0 10px 30px rgba(26, 47, 37, 0.03); display: flex; flex-direction: column; align-items: center; transition: transform 0.3s ease; }
 .ut-custom-d2573e { width: 60px; height: 60px; background: rgba(212,175,55,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; }
 .ut-custom-2725b0 { color: #D4AF37; width: 24px; height: 24px; }
 .ut-custom-6f905d { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; color: #1A2F25; font-weight: 500; margin-bottom: 12px; }
@@ -18257,7 +18286,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-91ef18 { padding: 100px 0; background: linear-gradient(180deg, #EDE9DF 0%, #F5F1E7 100%); }
 .ut-custom-c7d97f { text-align: center; max-width: 840px; margin: 0 auto 60px; }
 .ut-custom-e610a6 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
-.ut-custom-171331 { width: 100%; clip-path: none; border-radius: 20px; background: rgba(255, 255, 255, 0.7); }
+.ut-custom-171331 { width: 100%; clip-path: none; border-radius: 20px; background: rgba(245, 241, 231, 0.92); }
 .ut-custom-e40689 { width: 48px; height: 48px; border-radius: 50px; background: rgba(212, 175, 55, 0.15); display: flex; align-items: center; justify-content: center; color: var(--hc-accent-dark); margin-bottom: 20px; }
 .ut-icon-24 { width: 24px; height: 24px; }
 .ut-custom-1f3e44 { font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #1A3626; }
@@ -18342,11 +18371,11 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-1cf1f3 { position: absolute; inset: 0; background: rgba(245, 241, 231, 0.88); z-index: 0; }
 .ut-custom-930c1b { text-align: center; max-width: 900px; margin: 0 auto 60px; }
 .ut-custom-af2c73 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; align-items: stretch; margin-bottom: 50px; }
-.ut-custom-3a202d { width: 100%; display: flex; flex-direction: column; clip-path: none; border-radius: 20px; background: rgba(255, 255, 255, 0.7); }
+.ut-custom-3a202d { width: 100%; display: flex; flex-direction: column; clip-path: none; border-radius: 20px; background: rgba(245, 241, 231, 0.92); }
 .ut-custom-f59b30 { font-size: 24px; margin-bottom: 16px; }
 .ut-custom-81ded0 { margin-top: auto; padding-top: 16px; border-top: 1px dashed rgba(26, 54, 38, 0.1); }
 .ut-custom-987d99 { width: 100%; border-radius: 8px; clip-path: none; text-align: center; }
-.ut-custom-a5f0f6 { width: 100%; display: flex; flex-direction: column; clip-path: none; border-radius: 20px; border-color: rgba(160, 160, 160, 0.6); box-shadow: 0 24px 60px rgba(0,0,0,0.04); background: rgba(255, 255, 255, 0.85); }
+.ut-custom-a5f0f6 { width: 100%; display: flex; flex-direction: column; clip-path: none; border-radius: 20px; border-color: rgba(160, 160, 160, 0.6); box-shadow: 0 24px 60px rgba(0,0,0,0.04); background: rgba(245, 241, 231, 0.92); }
 .ut-custom-411175 { width: 100%; display: flex; flex-direction: column; clip-path: none; border-radius: 20px; border-color: rgba(212, 175, 55, 0.7); box-shadow: 0 24px 60px rgba(212, 175, 55, 0.15); background: rgba(253, 250, 241, 0.95); }
 .ut-custom-e3e438 { margin-top: auto; padding-top: 16px; border-top: 1px dashed rgba(212, 175, 55, 0.2); }
 .ut-custom-9ab569 { width: 100%; clip-path: none; border-radius: 8px; text-align: center; }
@@ -18369,3 +18398,83 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-1573f0 { color: #c49a45; }
 .ut-custom-38c721 { margin-bottom: 40px; scroll-margin-top: 120px; }
 .ut-custom-8a62d8 { margin-top: 28px; }
+
+
+/* =========================================================
+   BUTTONS — UNIVERSAL ANGULAR OVERRIDE (identidade visual)
+   Zero border-radius + clip-path cut-corner para TODOS os botões
+   ========================================================= */
+[class*="-btn"]:not(.toc-mobile-btn):not(.step-number):not(.social-icon-btn):not(.testimonials-nav-btn),
+[class*="-cta-btn"],
+[class*="wsp-btn"],
+.hero-btn-primary,
+.hero-btn-secondary,
+.hero-nav-cta,
+.mega-cta-btn,
+.form-submit-btn,
+.blog-category-btn,
+.blog-load-more-btn,
+.lifestyle-cta,
+.process-cta,
+.services-catalog-button,
+.btn-secondary,
+.ut-custom-9d1de7,
+.ut-custom-270f0c {
+  border-radius: 0 !important;
+  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px) !important;
+}
+
+/* Form Loader Spinning Animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* FIX: gestante CTA box button → gold */
+.gestante-cta-box a,
+.gestante-cta-box .hero-btn-primary,
+.gestante-cta-box [class*="-btn"],
+.gestante-cta-box button {
+  background: #D4AF37 !important;
+  color: #0E2418 !important;
+  border-color: #D4AF37 !important;
+}
+.gestante-cta-box a:hover,
+.gestante-cta-box .hero-btn-primary:hover {
+  background: #B58D20 !important;
+  border-color: #B58D20 !important;
+}
+
+/* FIX: Limmea produtos — lembrancinhas para festas section */
+.limmea-festa-section,
+.festa-produtos-section,
+[class*="festa-section"],
+[class*="lembrancinha"] {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #F5F1E7 0%, #EDE9DF 100%);
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* FIX: Plano Premium dark card — ensure all text is light */
+.ut-custom-3d6d23 * {
+  color: #FAF8F5 !important;
+}
+.ut-custom-3d6d23 .ut-custom-bae140 {
+  color: #1A2F25 !important; /* badge text stays dark on gold */
+}
+.ut-custom-3d6d23 .ut-custom-644928,
+.ut-custom-3d6d23 .ut-custom-2c2fd9 {
+  color: #D4AF37 !important;
+}
+.ut-custom-3d6d23 .ut-custom-779946,
+.ut-custom-3d6d23 [class*="hero-btn"] {
+  background: #D4AF37 !important;
+  color: #0E2418 !important;
+  border-color: #D4AF37 !important;
+}
