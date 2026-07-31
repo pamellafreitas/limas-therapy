@@ -3281,9 +3281,9 @@ LOGO, NAV ACTIONS & MEGA MENU STYLES
 .hero-brand-logo { border: none !important; box-shadow: none !important; border-radius: 0 !important; }
 
 .hero-brand-logo img {
-  height: 68px !important;
+  height: 82px !important;
   width: auto !important;
-  max-height: 72px !important;
+  max-height: 88px !important;
   object-fit: contain !important;
   border: none !important;
   border-radius: 0 !important;
