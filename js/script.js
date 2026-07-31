@@ -124,4 +124,50 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+
+
+  // Controle de Posição Fixa do Índice dos Artigos em Telas Grandes (Desktop)
+  function initStickyTOC() {
+    const sidebar = document.querySelector('.blog-sidebar');
+    const toc = document.querySelector('.blog-toc');
+    const main = document.querySelector('.blog-main');
+
+    if (!sidebar || !toc || !main) return;
+
+    function updateTOCPosition() {
+      if (window.innerWidth < 992) {
+        toc.style.position = '';
+        toc.style.top = '';
+        toc.style.width = '';
+        return;
+      }
+
+      const mainRect = main.getBoundingClientRect();
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const tocHeight = toc.offsetHeight;
+      const navOffset = 110;
+
+      if (mainRect.top > navOffset) {
+        toc.style.position = 'relative';
+        toc.style.top = '0px';
+        toc.style.width = '100%';
+      } else if (mainRect.bottom < navOffset + tocHeight) {
+        toc.style.position = 'absolute';
+        toc.style.top = (main.offsetHeight - tocHeight) + 'px';
+        toc.style.width = sidebarRect.width + 'px';
+      } else {
+        toc.style.position = 'fixed';
+        toc.style.top = navOffset + 'px';
+        toc.style.width = sidebarRect.width + 'px';
+        toc.style.zIndex = '90';
+      }
+    }
+
+    window.addEventListener('scroll', updateTOCPosition, { passive: true });
+    window.addEventListener('resize', updateTOCPosition, { passive: true });
+    updateTOCPosition();
+  }
+
+  initStickyTOC();
+
 });

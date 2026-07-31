@@ -18543,10 +18543,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 
 /* Extracted from fundadora.html */
 html,
-body {
-  overflow-x: hidden !important;
-  width: 100% !important;
-}
+body { overflow-x: clip !important; width: 100% !important; }
 
 .fundadora-hero {
   position: relative;
@@ -22630,8 +22627,13 @@ a.floating-wsp-btn:hover,
    Garante que o índice do artigo permaneça fixo na tela durante a leitura em telas grandes
    ========================================================= */
 
+html, body {
+  overflow-x: clip !important;
+}
+
 @media (min-width: 992px) {
   .blog-main {
+    position: relative !important;
     display: flex !important;
     align-items: flex-start !important;
     gap: 48px !important;
@@ -22646,19 +22648,17 @@ a.floating-wsp-btn:hover,
   .blog-sidebar {
     width: 320px !important;
     flex: 0 0 320px !important;
-    position: sticky !important;
-    top: 110px !important;
-    align-self: flex-start !important;
-    height: fit-content !important;
-    z-index: 80 !important;
+    position: relative !important;
+    align-self: stretch !important;
   }
 
   .blog-toc {
-    position: sticky !important;
-    top: 110px !important;
+    z-index: 90 !important;
     max-height: calc(100vh - 140px) !important;
     overflow-y: auto !important;
-    border: 1px solid rgba(212, 175, 55, 0.3) !important;
-    box-shadow: 0 12px 36px rgba(14, 36, 24, 0.08) !important;
+    border: 1px solid rgba(212, 175, 55, 0.35) !important;
+    box-shadow: 0 12px 36px rgba(14, 36, 24, 0.12) !important;
+    background: #FDFCF9 !important;
+    transition: box-shadow 0.3s ease;
   }
 }
