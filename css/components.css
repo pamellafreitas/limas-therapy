@@ -22623,3 +22623,42 @@ a.floating-wsp-btn:hover,
   font-weight: 600 !important;
   font-size: 15px !important;
 }
+
+
+/* =========================================================
+   ARTICLE TABLE OF CONTENTS (ÍNDICE DO ARTIGO) FIXO AO ROLAR EM TELAS GRANDES
+   Garante que o índice do artigo permaneça fixo na tela durante a leitura em telas grandes
+   ========================================================= */
+
+@media (min-width: 992px) {
+  .blog-main {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 48px !important;
+    overflow: visible !important;
+  }
+
+  .blog-article {
+    flex: 1 1 0% !important;
+    min-width: 0 !important;
+  }
+
+  .blog-sidebar {
+    width: 320px !important;
+    flex: 0 0 320px !important;
+    position: sticky !important;
+    top: 110px !important;
+    align-self: flex-start !important;
+    height: fit-content !important;
+    z-index: 80 !important;
+  }
+
+  .blog-toc {
+    position: sticky !important;
+    top: 110px !important;
+    max-height: calc(100vh - 140px) !important;
+    overflow-y: auto !important;
+    border: 1px solid rgba(212, 175, 55, 0.3) !important;
+    box-shadow: 0 12px 36px rgba(14, 36, 24, 0.08) !important;
+  }
+}
