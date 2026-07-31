@@ -22255,10 +22255,12 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 
 /* ==========================================================================
    GLOBAL MASTER RULE: STANDARDIZE ALL TITLES ACROSS ALL PAGES EXACTLY LIKE INDEX.HTML
-   Todos os títulos do site utilizam Playfair Display (#0E2418 / #1A3626) + Playfair Display Itálico Dourado (#D4AF37 / #B58D20)
+   - Fonte Base de Todos os Títulos: Playfair Display
+   - Seções Claras (Creme): Título Verde Escuro (#0E2418) + Destaque Dourado (#D4AF37)
+   - Seções Escuras (Verde): Título Creme Claro (#F5F1E7) + Destaque Dourado (#D4AF37)
    ========================================================================== */
 
-/* 1. Fonte e Estilo Base de Todos os Títulos (Playfair Display) */
+/* 1. Fonte e Estilo Base de Todos os Títulos */
 h1, h2, h3, h4,
 .hero-sobre-title,
 .sobre-title,
@@ -22306,16 +22308,8 @@ h1, h2, h3, h4,
 .ut-custom-541b97,
 .ut-custom-2ac949 {
   font-family: 'Playfair Display', Georgia, serif !important;
-  color: #0E2418 !important;
-  font-weight: 600 !important;
-}
-
-/* Exceção para títulos dentro de seções escuras (como Clube LT ou Agende Consulta) */
-.clube-lt h2,
-.clube-lt .clube-title,
-.agende-consulta h2,
-.agende-consulta .contact-title {
-  color: #F5F1E7 !important;
+  color: #0E2418;
+  font-weight: 600;
 }
 
 /* 2. Destaques em Letra Cursiva / Serifada Itálica Dourada da Paleta (#D4AF37) */
@@ -22355,4 +22349,38 @@ h1, h2, h3, h4,
   color: #D4AF37 !important;
   font-weight: 400 !important;
   letter-spacing: -0.02em !important;
+}
+
+/* 3. CONTRASTE DE TEXTO PARA SEÇÕES E CARDS COM FUNDO VERDE ESCURO (#0E2418 / #1A3626) */
+.agende-consulta h1, .agende-consulta h2, .agende-consulta h3, .agende-consulta h4,
+.agende-consulta .contact-title,
+.clube-lt h1, .clube-lt h2, .clube-lt h3, .clube-lt h4,
+.clube-lt .clube-title,
+.clube-card-frame h1, .clube-card-frame h2, .clube-card-frame h3, .clube-card-frame h4,
+.limmea-card-frame h1, .limmea-card-frame h2, .limmea-card-frame h3, .limmea-card-frame h4,
+.contact-info-card h1, .contact-info-card h2, .contact-info-card h3, .contact-info-card h4,
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4,
+.sobre-estetica-section h1, .sobre-estetica-section h2, .sobre-estetica-section h3, .sobre-estetica-section h4,
+.pacotes-spa-section h1, .pacotes-spa-section h2, .pacotes-spa-section h3, .pacotes-spa-section h4,
+.como-funciona-sessao-section h1, .como-funciona-sessao-section h2, .como-funciona-sessao-section h3, .como-funciona-sessao-section h4,
+.oq-fisio-reabilitatoria-section h1, .oq-fisio-reabilitatoria-section h2, .oq-fisio-reabilitatoria-section h3, .oq-fisio-reabilitatoria-section h4,
+.como-funciona-fisio-section h1, .como-funciona-fisio-section h2, .como-funciona-fisio-section h3, .como-funciona-fisio-section h4,
+.beneficios-fisio-section h1, .beneficios-fisio-section h2, .beneficios-fisio-section h3, .beneficios-fisio-section h4,
+.outros-tratamentos-section h1, .outros-tratamentos-section h2, .outros-tratamentos-section h3, .outros-tratamentos-section h4,
+.faq-fisio-section h1, .faq-fisio-section h2, .faq-fisio-section h3, .faq-fisio-section h4,
+.por-que-escolher-depilacao-section h1, .por-que-escolher-depilacao-section h2, .por-que-escolher-depilacao-section h3, .por-que-escolher-depilacao-section h4,
+.assinatura-depilacao-section h1, .assinatura-depilacao-section h2, .assinatura-depilacao-section h3, .assinatura-depilacao-section h4,
+.oferecemos-cta-banner h1, .oferecemos-cta-banner h2, .oferecemos-cta-banner h3, .oferecemos-cta-banner h4,
+.sobre-massoterapia-intro-card h1, .sobre-massoterapia-intro-card h2, .sobre-massoterapia-intro-card h3, .sobre-massoterapia-intro-card h4,
+.doze-massagens-cta-card h1, .doze-massagens-cta-card h2, .doze-massagens-cta-card h3, .doze-massagens-cta-card h4,
+.para-quem-cta-banner h1, .para-quem-cta-banner h2, .para-quem-cta-banner h3, .para-quem-cta-banner h4,
+.sobre-fisio-intro-card h1, .sobre-fisio-intro-card h2, .sobre-fisio-intro-card h3, .sobre-fisio-intro-card h4,
+.sobre-fisio-cta-banner h1, .sobre-fisio-cta-banner h2, .sobre-fisio-cta-banner h3, .sobre-fisio-cta-banner h4,
+.quando-alert-box h1, .quando-alert-box h2, .quando-alert-box h3, .quando-alert-box h4,
+.tu-highlight-card h1, .tu-highlight-card h2, .tu-highlight-card h3, .tu-highlight-card h4,
+.pq-quote-card h1, .pq-quote-card h2, .pq-quote-card h3, .pq-quote-card h4,
+.sd-cta-banner h1, .sd-cta-banner h2, .sd-cta-banner h3, .sd-cta-banner h4,
+.gestante-cta-box h1, .gestante-cta-box h2, .gestante-cta-box h3, .gestante-cta-box h4,
+.noiva-cta-box h1, .noiva-cta-box h2, .noiva-cta-box h3, .noiva-cta-box h4 {
+  color: #F5F1E7 !important;
 }
