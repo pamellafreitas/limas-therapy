@@ -22205,3 +22205,52 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
     font-size: 12px;
   }
 }
+
+
+/* ==========================================================================
+   LIMMÉA PRODUTOS - TITLE HARMONIZATION WITH BRAND DESIGN SYSTEM
+   Garante a tipografia oficial (Cinzel + Cormorant Garamond itálico dourado) em todos os títulos da página Limméa
+   ========================================================================== */
+
+/* Classes utilitárias de títulos da página Limméa */
+.ut-custom-3ecda9,
+.ut-custom-55a835,
+.ut-custom-f84d0f,
+.hero-sobre-title,
+.lf-title,
+.psm-title,
+.eps-title {
+  font-family: 'Cinzel', 'Playfair Display', serif !important;
+  font-size: clamp(2.2rem, 4.2vw, 3rem) !important;
+  color: #0E2418 !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  margin-bottom: 18px !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* Subtítulos e Kickers no padrão Urbanist dourado */
+.ut-custom-c32c95,
+.eps-kicker {
+  font-family: 'Urbanist', 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #D4AF37 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  display: inline-block !important;
+  margin-bottom: 12px !important;
+}
+
+/* Palavras de destaque com a fonte Serif Itálica Dourada da marca */
+.limmea-title-accent,
+.ut-custom-89b7f7,
+.hero-sobre-title-accent,
+.lf-title-accent,
+.psm-title-accent,
+.eps-title-accent {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif !important;
+  font-style: italic !important;
+  color: #D4AF37 !important;
+  font-weight: 600 !important;
+}
