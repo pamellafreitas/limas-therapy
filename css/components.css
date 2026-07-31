@@ -22506,3 +22506,53 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* =========================================================
+   NAVBAR & LOGO CUSTOMIZATIONS: ZERO TOP/BOTTOM PADDING & SQUARE LOGOS ONLY
+   Garante 0 de espaçamento no topo e embaixo no menu, formato quadrado para as logos e oculta qualquer texto ao lado
+   ========================================================= */
+
+.hero-nav-wrap,
+.hero-nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.hero-brand,
+.footer-brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0 !important;
+  text-decoration: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.hero-brand-text,
+.footer-brand-info,
+.hero-brand-name,
+.hero-brand-sub,
+.footer-brand-name,
+.footer-brand-sub {
+  display: none !important;
+}
+
+.hero-brand-logo,
+.footer-brand-logo {
+  width: auto !important;
+  height: auto !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.hero-brand-logo img,
+.footer-brand-logo img {
+  height: 54px !important;
+  width: auto !important;
+  max-height: 56px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  display: block !important;
+}
