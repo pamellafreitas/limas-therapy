@@ -22254,11 +22254,11 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 
 
 /* ==========================================================================
-   GLOBAL MASTER RULE: STANDARDIZE ALL TITLES ACROSS ALL PAGES LIKE INDEX.HTML
-   Todos os títulos do site utilizam Cinzel (#0E2418) + Cormorant Garamond Itálico Dourado (#D4AF37)
+   GLOBAL MASTER RULE: STANDARDIZE ALL TITLES ACROSS ALL PAGES EXACTLY LIKE INDEX.HTML
+   Todos os títulos do site utilizam Playfair Display (#0E2418 / #1A3626) + Playfair Display Itálico Dourado (#D4AF37 / #B58D20)
    ========================================================================== */
 
-/* 1. Todos os Títulos Base de Todas as Páginas */
+/* 1. Fonte e Estilo Base de Todos os Títulos (Playfair Display) */
 h1, h2, h3, h4,
 .hero-sobre-title,
 .sobre-title,
@@ -22305,7 +22305,7 @@ h1, h2, h3, h4,
 .ut-custom-21e601,
 .ut-custom-541b97,
 .ut-custom-2ac949 {
-  font-family: 'Cinzel', 'Playfair Display', serif !important;
+  font-family: 'Playfair Display', Georgia, serif !important;
   color: #0E2418 !important;
   font-weight: 600 !important;
 }
@@ -22318,7 +22318,7 @@ h1, h2, h3, h4,
   color: #F5F1E7 !important;
 }
 
-/* 2. Todos os Destaques Cursivos/Itálicos em Ouro Dourado da Paleta (#D4AF37) */
+/* 2. Destaques em Letra Cursiva / Serifada Itálica Dourada da Paleta (#D4AF37) */
 .hero-font-serif,
 .text-accent,
 .sobre-title-accent,
@@ -22350,8 +22350,9 @@ h1, h2, h3, h4,
 .spa-estetica-title-accent,
 .depilacao-title-accent,
 .ut-custom-89b7f7 {
-  font-family: 'Cormorant Garamond', 'Playfair Display', serif !important;
+  font-family: 'Playfair Display', Georgia, serif !important;
   font-style: italic !important;
   color: #D4AF37 !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.02em !important;
 }
