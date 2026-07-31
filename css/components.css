@@ -3278,15 +3278,7 @@ LOGO, NAV ACTIONS & MEGA MENU STYLES
   }
 }
 
-.hero-brand-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 999px;
-  overflow: hidden;
-  border: 1px solid rgba(212, 175, 55, 0.5);
-  box-shadow: 0 4px 12px rgba(26, 54, 38, 0.15);
-  flex: 0 0 auto;
-}
+.hero-brand-logo { border: none !important; box-shadow: none !important; border-radius: 0 !important; }
 
 .hero-brand-logo img {
   width: 100%;
@@ -3420,15 +3412,7 @@ FOOTER STYLES
   text-decoration: none;
 }
 
-.footer-brand-logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 999px;
-  overflow: hidden;
-  border: 1px solid #D4AF37;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
-  flex: 0 0 auto;
-}
+.footer-brand-logo { border: none !important; box-shadow: none !important; border-radius: 0 !important; }
 
 .footer-brand-logo img {
   width: 100%;
@@ -22508,16 +22492,12 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
 }
 
 /* =========================================================
-   NAVBAR & LOGO CUSTOMIZATIONS: ZERO TOP/BOTTOM PADDING & SQUARE LOGOS
-   Sem espaçamento no topo e embaixo no menu, logo no formato quadrado e sem texto ao lado
+   NAVBAR & LOGO CUSTOMIZATIONS: NO BORDERS, TIGHT MENU & LARGE FOOTER LOGO
    ========================================================= */
 
-/* Zero espaçamento no topo e embaixo no menu */
+/* Mantém o menu compacto com 0 de espaçamento extra no topo/base */
 .hero-nav-wrap,
-.hero-nav,
-.nav-shell,
-.nav-container,
-.nav-inner {
+.hero-nav {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-top: 0 !important;
@@ -22543,26 +22523,42 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   display: none !important;
 }
 
-/* Container da logo em formato quadrado */
+/* Removidas todas as bordas, círculos e sombras dos containers da logo */
 .hero-brand-logo,
 .footer-brand-logo {
   width: auto !important;
   height: auto !important;
+  border: none !important;
   border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
   background: transparent !important;
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
+  overflow: visible !important;
 }
 
-/* Imagem da logo em formato quadrado limpo */
-.hero-brand-logo img,
-.footer-brand-logo img {
+/* Logo no Menu: Encaixe perfeito de 52px sem aumentar a altura do menu */
+.hero-brand-logo img {
   height: 52px !important;
-  width: 52px !important;
-  max-height: 56px !important;
-  max-width: 56px !important;
+  width: auto !important;
+  max-height: 54px !important;
   object-fit: contain !important;
+  border: none !important;
   border-radius: 0 !important;
+  box-shadow: none !important;
+  display: block !important;
+}
+
+/* Logo bem maior no Footer (110px) sem qualquer borda */
+.footer-brand-logo img {
+  height: 110px !important;
+  width: auto !important;
+  max-height: 130px !important;
+  object-fit: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   display: block !important;
 }
