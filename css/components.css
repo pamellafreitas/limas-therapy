@@ -21338,9 +21338,9 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .depilacao-cta-btn,
 .sobre-massoterapia-wsp-btn,
 .btn-secondary,
-[class*="-btn"]:not(.toc-mobile-btn):not(.step-number):not(.social-icon-btn):not(.testimonials-nav-btn):not(.btn-icon):not([class*="btn-wrapper"]):not([class*="btn-container"]):not([class*="btn-group"]),
+[class*="-btn"]:not(.floating-wsp-btn):not(.toc-mobile-btn):not(.step-number):not(.social-icon-btn):not(.testimonials-nav-btn):not(.btn-icon):not([class*="btn-wrapper"]):not([class*="btn-container"]):not([class*="btn-group"]),
 [class*="-cta-btn"],
-[class*="wsp-btn"],
+[class*="wsp-btn"]:not(.floating-wsp-btn),
 [class*="hero-btn"],
 .ut-custom-0a76c7,
 .ut-custom-122a29,
@@ -22579,16 +22579,29 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
    FIX: ROUND FLOATING WHATSAPP BUTTON & HIGH CONTRAST FORM STATUS MESSAGE
    ========================================================= */
 
-/* Botão Flutuante do WhatsApp 100% Redondo */
+/* Botão Flutuante do WhatsApp 100% Redondo (Garantido contra qualquer override) */
+a.floating-wsp-btn,
 .floating-wsp-btn {
+  width: 60px !important;
+  height: 60px !important;
   border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
   clip-path: none !important;
+  -webkit-clip-path: none !important;
+  background: #25D366 !important;
+  color: #0E2418 !important;
   box-shadow: 0 10px 28px rgba(37, 211, 102, 0.5) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
+a.floating-wsp-btn:hover,
 .floating-wsp-btn:hover {
   border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
   clip-path: none !important;
+  -webkit-clip-path: none !important;
   transform: scale(1.1) translateY(-3px) !important;
   box-shadow: 0 16px 36px rgba(37, 211, 102, 0.65) !important;
 }
