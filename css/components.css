@@ -3278,7 +3278,11 @@ LOGO, NAV ACTIONS & MEGA MENU STYLES
   }
 }
 
-.hero-brand-logo { border: none !important; box-shadow: none !important; border-radius: 0 !important; }
+.hero-brand-logo {
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
 
 .hero-brand-logo img {
   height: 82px !important;
@@ -3417,7 +3421,11 @@ FOOTER STYLES
   text-decoration: none;
 }
 
-.footer-brand-logo { border: none !important; box-shadow: none !important; border-radius: 0 !important; }
+.footer-brand-logo {
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
 
 .footer-brand-logo img {
   width: 100%;
@@ -22546,9 +22554,9 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
 
 /* Logo no Menu: Encaixe perfeito de 52px sem aumentar a altura do menu */
 .hero-brand-logo img {
-  height: 52px !important;
+  height: 70px !important;
   width: auto !important;
-  max-height: 54px !important;
+  max-height: 70px !important;
   object-fit: contain !important;
   border: none !important;
   border-radius: 0 !important;
