@@ -18555,3 +18555,23 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .ut-custom-fa6bbf .ut-custom-54ea4b {
   color: #596B5F !important;
 }
+
+
+/* =========================================================
+   RESPONSIVE FIX: CONTACT GRID & DETAILS BOX (MOBILE/TABLET)
+   Garante que o card lateral (.contact-details-box / .ut-custom-fa6bbf)
+   vá para baixo do texto/CTA em telas menores (tablets e celulares)
+   ========================================================= */
+@media (max-width: 1080px) {
+  .contact-grid,
+  .ut-custom-0f85f0 {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  .contact-details-box,
+  .ut-custom-fa6bbf {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 20px !important;
+  }
+}
