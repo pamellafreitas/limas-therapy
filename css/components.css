@@ -22384,3 +22384,37 @@ h1, h2, h3, h4,
 .noiva-cta-box h1, .noiva-cta-box h2, .noiva-cta-box h3, .noiva-cta-box h4 {
   color: #F5F1E7 !important;
 }
+
+
+/* ==========================================================================
+   GLOBAL GOLD DIVIDERS FOR ALL SECTIONS ACROSS ALL PAGES
+   Garante a linha divisória dourada elegante entre todas as seções e abaixo dos títulos
+   ========================================================================== */
+
+/* 1. Divisor Dourado de Borda Superior em Todas as Seções do Site */
+main > section,
+section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* 2. Divisor Dourado Horizontal (2px #D4AF37) */
+.ut-divider-gold,
+.ut-divider-gold-mb32,
+.ut-divider-gold-mt24,
+.sobre-founder-divider,
+.title-divider,
+.section-divider-line {
+  width: 60px;
+  height: 2px;
+  background: #D4AF37 !important;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.ut-text-center-mb60 .ut-divider-gold,
+.ut-text-center-mb50 .ut-divider-gold,
+.text-center .ut-divider-gold,
+.text-center .title-divider {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
