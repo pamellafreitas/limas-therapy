@@ -21508,21 +21508,24 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 }
 
 /* =========================================================
-   HERO ACTIONS LEFT ALIGNMENT ON MEDIUM & SMALL SCREENS
-   Garante que os botões da section hero fiquem alinhados à esquerda em telas médias e pequenas
+   HERO ACTIONS LEFT ALIGNMENT & SPACING FIX
+   Garante que os botões da section hero fiquem juntos (sem margin-right: auto) e alinhados à esquerda em telas médias e pequenas
    ========================================================= */
 @media (max-width: 1080px) {
   .hero-actions {
     justify-content: flex-start !important;
-    align-items: flex-start !important;
+    align-items: center !important;
     text-align: left !important;
-    width: 100% !important;
+    gap: 14px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
+
   .hero-actions .hero-btn-primary,
   .hero-actions .hero-btn-secondary,
   .hero-actions a {
     margin-left: 0 !important;
-    margin-right: auto !important;
-    align-self: flex-start !important;
+    margin-right: 0 !important;
+    flex: 0 0 auto !important;
   }
 }
