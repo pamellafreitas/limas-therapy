@@ -21306,7 +21306,6 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .form-submit-btn,
 .contact-wsp-btn,
 .contact-info-btn,
-.floating-wsp-btn,
 .oferecemos-cta-btn,
 .como-escolhemos-cta-btn,
 .qual-tratamento-cta-btn,
@@ -22574,4 +22573,40 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   border-radius: 0 !important;
   box-shadow: none !important;
   display: block !important;
+}
+
+/* =========================================================
+   FIX: ROUND FLOATING WHATSAPP BUTTON & HIGH CONTRAST FORM STATUS MESSAGE
+   ========================================================= */
+
+/* Botão Flutuante do WhatsApp 100% Redondo */
+.floating-wsp-btn {
+  border-radius: 50% !important;
+  clip-path: none !important;
+  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.5) !important;
+}
+
+.floating-wsp-btn:hover {
+  border-radius: 50% !important;
+  clip-path: none !important;
+  transform: scale(1.1) translateY(-3px) !important;
+  box-shadow: 0 16px 36px rgba(37, 211, 102, 0.65) !important;
+}
+
+/* Mensagem de Sucesso do Formulário com Alta Visibilidade */
+.form-status-msg.success {
+  background: rgba(212, 175, 55, 0.18) !important;
+  border: 1.5px solid #D4AF37 !important;
+  color: #F5F1E7 !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-status-msg.error {
+  background: rgba(217, 83, 79, 0.2) !important;
+  border: 1.5px solid #d9534f !important;
+  color: #F5F1E7 !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
 }

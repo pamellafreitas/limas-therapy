@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         const statusDiv = document.createElement('div');
         statusDiv.className = 'form-status-msg success';
-        statusDiv.style.cssText = 'margin-top: 18px; padding: 14px 20px; background: rgba(26, 54, 38, 0.08); border: 1.5px solid #1A3626; color: #1A3626; border-radius: 8px; font-weight: 600; font-size: 14px; text-align: center; line-height: 1.5;';
+        statusDiv.style.cssText = 'margin-top: 18px; padding: 14px 20px; background: rgba(212, 175, 55, 0.18); border: 1.5px solid #D4AF37; color: #F5F1E7; border-radius: 8px; font-weight: 600; font-size: 15px; text-align: center; line-height: 1.5; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);';
 
         if (data.success) {
           statusDiv.innerHTML = '✓ Mensagem enviada com sucesso! Entraremos em contato em breve.';
