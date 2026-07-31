@@ -61,4 +61,67 @@ document.addEventListener('DOMContentLoaded', function() {
       revealObserver.observe(el);
     });
   }
+
+  // --- WEB3FORMS AJAX FORM SUBMISSION ---
+  const contactForms = document.querySelectorAll('.contact-form');
+  contactForms.forEach(form => {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const submitBtn = form.querySelector('.form-submit-btn') || form.querySelector('button[type="submit"]');
+      const originalBtnHtml = submitBtn ? submitBtn.innerHTML : 'Enviar Mensagem';
+
+      // Existing status msg removal
+      const existingStatus = form.querySelector('.form-status-msg');
+      if (existingStatus) {
+        existingStatus.remove();
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>Enviando...</span>';
+      }
+
+      const formData = new FormData(form);
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        const statusDiv = document.createElement('div');
+        statusDiv.className = 'form-status-msg success';
+        statusDiv.style.cssText = 'margin-top: 18px; padding: 14px 20px; background: rgba(26, 54, 38, 0.08); border: 1.5px solid #1A3626; color: #1A3626; border-radius: 8px; font-weight: 600; font-size: 14px; text-align: center; line-height: 1.5;';
+
+        if (data.success) {
+          statusDiv.innerHTML = '✓ Mensagem enviada com sucesso! Entraremos em contato em breve.';
+          form.reset();
+        } else {
+          statusDiv.className = 'form-status-msg error';
+          statusDiv.style.cssText = 'margin-top: 18px; padding: 14px 20px; background: rgba(217, 83, 79, 0.08); border: 1.5px solid #d9534f; color: #d9534f; border-radius: 8px; font-weight: 600; font-size: 14px; text-align: center; line-height: 1.5;';
+          statusDiv.innerHTML = 'Ops! Ocorreu um erro ao enviar: ' + (data.message || 'Por favor, tente novamente.');
+        }
+
+        form.appendChild(statusDiv);
+      })
+      .catch(error => {
+        const statusDiv = document.createElement('div');
+        statusDiv.className = 'form-status-msg error';
+        statusDiv.style.cssText = 'margin-top: 18px; padding: 14px 20px; background: rgba(217, 83, 79, 0.08); border: 1.5px solid #d9534f; color: #d9534f; border-radius: 8px; font-weight: 600; font-size: 14px; text-align: center; line-height: 1.5;';
+        statusDiv.innerHTML = 'Ops! Ocorreu um erro de conexão. Por favor, tente novamente ou entre em contato pelo WhatsApp.';
+        form.appendChild(statusDiv);
+      })
+      .finally(() => {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalBtnHtml;
+          if (window.lucide) {
+            lucide.createIcons();
+          }
+        }
+      });
+    });
+  });
+
 });
