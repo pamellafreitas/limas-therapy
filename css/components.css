@@ -17954,7 +17954,6 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 
 .clube-section p {
   font-size: 1.15rem !important;
-  color: #44403c !important;
   /* stone-700 */
   line-height: 1.8 !important;
 }
@@ -19521,7 +19520,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 
 .ut-custom-8517e9 {
   padding: 100px 0;
-  background-color: #FAF8F5;
+  background-color: linear-gradient(180deg, #EDE9DF 0%, #F5F1E7 100%);
   position: relative;
   overflow: hidden;
 }
@@ -19622,7 +19621,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 
 .ut-custom-9d6c0a {
   padding: 100px 0;
-  background-color: #FFFFFF;
+  background-color: #F5F1E7;
 }
 
 .ut-custom-582c28 {
@@ -21701,7 +21700,8 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(14, 36, 24, 0.10);
   border: 1px solid rgba(212, 175, 55, 0.3);
-  aspect-ratio: 4/3;
+  height: 100%;
+  min-height: 540px;
   background: #EFEBE0;
 }
 
@@ -22163,6 +22163,7 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
    RESPONSIVIDADE PARA AS SEÇÕES DE LEMBRANCINHAS
    ========================================================= */
 @media (max-width: 992px) {
+
   .lf-grid,
   .psm-grid {
     grid-template-columns: 1fr;
@@ -22261,7 +22262,10 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
    ========================================================================== */
 
 /* 1. Fonte e Estilo Base de Todos os Títulos */
-h1, h2, h3, h4,
+h1,
+h2,
+h3,
+h4,
 .hero-sobre-title,
 .sobre-title,
 .tratamentos-title,
@@ -22352,36 +22356,120 @@ h1, h2, h3, h4,
 }
 
 /* 3. CONTRASTE DE TEXTO PARA SEÇÕES E CARDS COM FUNDO VERDE ESCURO (#0E2418 / #1A3626) */
-.agende-consulta h1, .agende-consulta h2, .agende-consulta h3, .agende-consulta h4,
+.agende-consulta h1,
+.agende-consulta h2,
+.agende-consulta h3,
+.agende-consulta h4,
 .agende-consulta .contact-title,
-.clube-lt h1, .clube-lt h2, .clube-lt h3, .clube-lt h4,
+.clube-lt h1,
+.clube-lt h2,
+.clube-lt h3,
+.clube-lt h4,
 .clube-lt .clube-title,
-.clube-card-frame h1, .clube-card-frame h2, .clube-card-frame h3, .clube-card-frame h4,
-.limmea-card-frame h1, .limmea-card-frame h2, .limmea-card-frame h3, .limmea-card-frame h4,
-.contact-info-card h1, .contact-info-card h2, .contact-info-card h3, .contact-info-card h4,
-.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4,
-.sobre-estetica-section h1, .sobre-estetica-section h2, .sobre-estetica-section h3, .sobre-estetica-section h4,
-.pacotes-spa-section h1, .pacotes-spa-section h2, .pacotes-spa-section h3, .pacotes-spa-section h4,
-.como-funciona-sessao-section h1, .como-funciona-sessao-section h2, .como-funciona-sessao-section h3, .como-funciona-sessao-section h4,
-.oq-fisio-reabilitatoria-section h1, .oq-fisio-reabilitatoria-section h2, .oq-fisio-reabilitatoria-section h3, .oq-fisio-reabilitatoria-section h4,
-.como-funciona-fisio-section h1, .como-funciona-fisio-section h2, .como-funciona-fisio-section h3, .como-funciona-fisio-section h4,
-.beneficios-fisio-section h1, .beneficios-fisio-section h2, .beneficios-fisio-section h3, .beneficios-fisio-section h4,
-.outros-tratamentos-section h1, .outros-tratamentos-section h2, .outros-tratamentos-section h3, .outros-tratamentos-section h4,
-.faq-fisio-section h1, .faq-fisio-section h2, .faq-fisio-section h3, .faq-fisio-section h4,
-.por-que-escolher-depilacao-section h1, .por-que-escolher-depilacao-section h2, .por-que-escolher-depilacao-section h3, .por-que-escolher-depilacao-section h4,
-.assinatura-depilacao-section h1, .assinatura-depilacao-section h2, .assinatura-depilacao-section h3, .assinatura-depilacao-section h4,
-.oferecemos-cta-banner h1, .oferecemos-cta-banner h2, .oferecemos-cta-banner h3, .oferecemos-cta-banner h4,
-.sobre-massoterapia-intro-card h1, .sobre-massoterapia-intro-card h2, .sobre-massoterapia-intro-card h3, .sobre-massoterapia-intro-card h4,
-.doze-massagens-cta-card h1, .doze-massagens-cta-card h2, .doze-massagens-cta-card h3, .doze-massagens-cta-card h4,
-.para-quem-cta-banner h1, .para-quem-cta-banner h2, .para-quem-cta-banner h3, .para-quem-cta-banner h4,
-.sobre-fisio-intro-card h1, .sobre-fisio-intro-card h2, .sobre-fisio-intro-card h3, .sobre-fisio-intro-card h4,
-.sobre-fisio-cta-banner h1, .sobre-fisio-cta-banner h2, .sobre-fisio-cta-banner h3, .sobre-fisio-cta-banner h4,
-.quando-alert-box h1, .quando-alert-box h2, .quando-alert-box h3, .quando-alert-box h4,
-.tu-highlight-card h1, .tu-highlight-card h2, .tu-highlight-card h3, .tu-highlight-card h4,
-.pq-quote-card h1, .pq-quote-card h2, .pq-quote-card h3, .pq-quote-card h4,
-.sd-cta-banner h1, .sd-cta-banner h2, .sd-cta-banner h3, .sd-cta-banner h4,
-.gestante-cta-box h1, .gestante-cta-box h2, .gestante-cta-box h3, .gestante-cta-box h4,
-.noiva-cta-box h1, .noiva-cta-box h2, .noiva-cta-box h3, .noiva-cta-box h4 {
+.clube-card-frame h1,
+.clube-card-frame h2,
+.clube-card-frame h3,
+.clube-card-frame h4,
+.limmea-card-frame h1,
+.limmea-card-frame h2,
+.limmea-card-frame h3,
+.limmea-card-frame h4,
+.contact-info-card h1,
+.contact-info-card h2,
+.contact-info-card h3,
+.contact-info-card h4,
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.sobre-estetica-section h1,
+.sobre-estetica-section h2,
+.sobre-estetica-section h3,
+.sobre-estetica-section h4,
+.pacotes-spa-section h1,
+.pacotes-spa-section h2,
+.pacotes-spa-section h3,
+.pacotes-spa-section h4,
+.como-funciona-sessao-section h1,
+.como-funciona-sessao-section h2,
+.como-funciona-sessao-section h3,
+.como-funciona-sessao-section h4,
+.oq-fisio-reabilitatoria-section h1,
+.oq-fisio-reabilitatoria-section h2,
+.oq-fisio-reabilitatoria-section h3,
+.oq-fisio-reabilitatoria-section h4,
+.como-funciona-fisio-section h1,
+.como-funciona-fisio-section h2,
+.como-funciona-fisio-section h3,
+.como-funciona-fisio-section h4,
+.beneficios-fisio-section h1,
+.beneficios-fisio-section h2,
+.beneficios-fisio-section h3,
+.beneficios-fisio-section h4,
+.outros-tratamentos-section h1,
+.outros-tratamentos-section h2,
+.outros-tratamentos-section h3,
+.outros-tratamentos-section h4,
+.faq-fisio-section h1,
+.faq-fisio-section h2,
+.faq-fisio-section h3,
+.faq-fisio-section h4,
+.por-que-escolher-depilacao-section h1,
+.por-que-escolher-depilacao-section h2,
+.por-que-escolher-depilacao-section h3,
+.por-que-escolher-depilacao-section h4,
+.assinatura-depilacao-section h1,
+.assinatura-depilacao-section h2,
+.assinatura-depilacao-section h3,
+.assinatura-depilacao-section h4,
+.oferecemos-cta-banner h1,
+.oferecemos-cta-banner h2,
+.oferecemos-cta-banner h3,
+.oferecemos-cta-banner h4,
+.sobre-massoterapia-intro-card h1,
+.sobre-massoterapia-intro-card h2,
+.sobre-massoterapia-intro-card h3,
+.sobre-massoterapia-intro-card h4,
+.doze-massagens-cta-card h1,
+.doze-massagens-cta-card h2,
+.doze-massagens-cta-card h3,
+.doze-massagens-cta-card h4,
+.para-quem-cta-banner h1,
+.para-quem-cta-banner h2,
+.para-quem-cta-banner h3,
+.para-quem-cta-banner h4,
+.sobre-fisio-intro-card h1,
+.sobre-fisio-intro-card h2,
+.sobre-fisio-intro-card h3,
+.sobre-fisio-intro-card h4,
+.sobre-fisio-cta-banner h1,
+.sobre-fisio-cta-banner h2,
+.sobre-fisio-cta-banner h3,
+.sobre-fisio-cta-banner h4,
+.quando-alert-box h1,
+.quando-alert-box h2,
+.quando-alert-box h3,
+.quando-alert-box h4,
+.tu-highlight-card h1,
+.tu-highlight-card h2,
+.tu-highlight-card h3,
+.tu-highlight-card h4,
+.pq-quote-card h1,
+.pq-quote-card h2,
+.pq-quote-card h3,
+.pq-quote-card h4,
+.sd-cta-banner h1,
+.sd-cta-banner h2,
+.sd-cta-banner h3,
+.sd-cta-banner h4,
+.gestante-cta-box h1,
+.gestante-cta-box h2,
+.gestante-cta-box h3,
+.gestante-cta-box h4,
+.noiva-cta-box h1,
+.noiva-cta-box h2,
+.noiva-cta-box h3,
+.noiva-cta-box h4 {
   color: #F5F1E7 !important;
 }
 
@@ -22392,7 +22480,7 @@ h1, h2, h3, h4,
    ========================================================================== */
 
 /* 1. Divisor Dourado de Borda Superior em Todas as Seções do Site */
-main > section,
+main>section,
 section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   border-top: 1px solid rgba(212, 175, 55, 0.25);
 }
