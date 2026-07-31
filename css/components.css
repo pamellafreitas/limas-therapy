@@ -22251,3 +22251,107 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
   margin-bottom: 12px !important;
   display: inline-block !important;
 }
+
+
+/* ==========================================================================
+   GLOBAL MASTER RULE: STANDARDIZE ALL TITLES ACROSS ALL PAGES LIKE INDEX.HTML
+   Todos os títulos do site utilizam Cinzel (#0E2418) + Cormorant Garamond Itálico Dourado (#D4AF37)
+   ========================================================================== */
+
+/* 1. Todos os Títulos Base de Todas as Páginas */
+h1, h2, h3, h4,
+.hero-sobre-title,
+.sobre-title,
+.tratamentos-title,
+.doze-massagens-title,
+.beneficios-title,
+.como-funciona-sessao-title,
+.para-quem-title,
+.como-nasceu-title,
+.nossa-historia-title,
+.valores-title,
+.fundadora-title,
+.se-title,
+.pe-title,
+.ps-title,
+.eq-title,
+.es-title,
+.ot-title,
+.ff-title,
+.oferecemos-title,
+.massoterapia-title,
+.fisioterapia-title,
+.spa-estetica-title,
+.depilacao-title,
+.como-escolhemos-title,
+.qual-tratamento-title,
+.noiva-title,
+.gestante-title,
+.clube-title,
+.funciona-title,
+.lf-title,
+.psm-title,
+.eps-title,
+.faq-title,
+.contact-title,
+.limmea-title,
+.doze-massagens-card-title,
+.protocol-title,
+.hero-card-title,
+.ut-custom-3ecda9,
+.ut-custom-55a835,
+.ut-custom-f84d0f,
+.ut-custom-328f5f,
+.ut-custom-21e601,
+.ut-custom-541b97,
+.ut-custom-2ac949 {
+  font-family: 'Cinzel', 'Playfair Display', serif !important;
+  color: #0E2418 !important;
+  font-weight: 600 !important;
+}
+
+/* Exceção para títulos dentro de seções escuras (como Clube LT ou Agende Consulta) */
+.clube-lt h2,
+.clube-lt .clube-title,
+.agende-consulta h2,
+.agende-consulta .contact-title {
+  color: #F5F1E7 !important;
+}
+
+/* 2. Todos os Destaques Cursivos/Itálicos em Ouro Dourado da Paleta (#D4AF37) */
+.hero-font-serif,
+.text-accent,
+.sobre-title-accent,
+.tratamentos-title-accent,
+.limmea-title-accent,
+.faq-title-accent,
+.contact-title-accent,
+.noiva-title-accent,
+.gestante-title-accent,
+.clube-title-accent,
+.lf-title-accent,
+.psm-title-accent,
+.eps-title-accent,
+.hero-sobre-title-accent,
+.como-nasceu-title-accent,
+.nossa-historia-title-accent,
+.valores-title-accent,
+.fundadora-title-accent,
+.se-title-accent,
+.pe-title-accent,
+.ps-title-accent,
+.eq-title-accent,
+.es-title-accent,
+.ot-title-accent,
+.ff-title-accent,
+.oferecemos-title-accent,
+.massoterapia-title-accent,
+.fisioterapia-title-accent,
+.spa-estetica-title-accent,
+.depilacao-title-accent,
+.ut-custom-89b7f7 {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif !important;
+  font-style: italic !important;
+  color: #D4AF37 !important;
+  font-weight: 600 !important;
+}
