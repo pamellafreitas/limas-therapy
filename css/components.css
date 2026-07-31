@@ -22205,3 +22205,49 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
     font-size: 12px;
   }
 }
+
+
+/* ==========================================================================
+   LIMMÉA PRODUTOS - TITLE HARMONIZATION WITH OTHER SITE PAGES
+   Padronização exata dos títulos da página Limméa com as páginas Tratamentos, Gestante e Dia da Noiva
+   ========================================================================== */
+
+.limmea-page .ut-custom-3ecda9,
+.limmea-page .ut-custom-55a835,
+.limmea-page .ut-custom-f84d0f,
+.limmea-page .hero-sobre-title,
+.limmea-page .lf-title,
+.limmea-page .psm-title,
+.limmea-page .eps-title {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem) !important;
+  line-height: 1.15 !important;
+  color: #0E2418 !important;
+  font-weight: 600 !important;
+  margin-bottom: 16px !important;
+  letter-spacing: normal !important;
+}
+
+/* Destaque de cor dourada de acento (#B58D20) igual a .tratamentos-title-accent, .gestante-title-accent, .noiva-title-accent */
+.limmea-page .ut-custom-89b7f7,
+.limmea-page .hero-sobre-title-accent,
+.limmea-page .lf-title-accent,
+.limmea-page .psm-title-accent,
+.limmea-page .eps-title-accent {
+  color: #B58D20 !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
+/* Subtítulos / Kickers no padrão das demais páginas */
+.limmea-page .ut-custom-c32c95,
+.limmea-page .eps-kicker {
+  font-family: 'Urbanist', sans-serif !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  color: #D4AF37 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  margin-bottom: 12px !important;
+  display: inline-block !important;
+}
