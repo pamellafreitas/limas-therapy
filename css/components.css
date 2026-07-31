@@ -18536,3 +18536,22 @@ UTILITY CLASSES EXTRACTED FROM INLINE STYLES
 .agende-consulta .form-submit-btn:hover {
   background: linear-gradient(135deg, #AA8C2C 0%, #95761A 100%) !important;
 }
+
+
+/* =========================================================
+   DIA DA NOIVA CARD CONTRAST FIX
+   Corrige a cor das letras no card de detalhes de contato (.ut-custom-fa6bbf)
+   que tem fundo claro, garantindo que o texto seja legível (verde escuro da marca)
+   ========================================================= */
+.ut-custom-fa6bbf {
+  background: rgba(249, 246, 239, 0.96) !important;
+  color: #1A3626 !important;
+}
+.ut-custom-fa6bbf strong,
+.ut-custom-fa6bbf .ut-custom-192c40 {
+  color: #1A3626 !important;
+}
+.ut-custom-fa6bbf span,
+.ut-custom-fa6bbf .ut-custom-54ea4b {
+  color: #596B5F !important;
+}
