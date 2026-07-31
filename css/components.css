@@ -22497,10 +22497,10 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
 }
 
 /* =========================================================
-   NAVBAR & LOGO CUSTOMIZATIONS: ENLARGED LOGO ON LARGE AND SMALL SCREENS
+   NAVBAR & LOGO CUSTOMIZATIONS: NO BORDERS, TIGHT MENU & LARGE FOOTER LOGO
    ========================================================= */
 
-/* Mantém o menu responsivo com 0 de espaçamento extra no topo/base */
+/* Mantém o menu compacto com 0 de espaçamento extra no topo/base */
 .hero-nav-wrap,
 .hero-nav {
   padding-top: 0 !important;
@@ -22544,11 +22544,11 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   overflow: visible !important;
 }
 
-/* Logo no Menu em Telas Grandes (Desktop - 105px) */
+/* Logo no Menu: Encaixe perfeito de 52px sem aumentar a altura do menu */
 .hero-brand-logo img {
-  height: 105px !important;
+  height: 52px !important;
   width: auto !important;
-  max-height: 115px !important;
+  max-height: 54px !important;
   object-fit: contain !important;
   border: none !important;
   border-radius: 0 !important;
@@ -22556,28 +22556,11 @@ section:not(#hero):not(.hero-homecare):not(.hero-sobre-split) {
   display: block !important;
 }
 
-/* Logo no Menu em Telas Médias e Pequenas (Tablets e Mobile) */
-@media (max-width: 992px) {
-  .hero-brand-logo img {
-    height: 82px !important;
-    width: auto !important;
-    max-height: 88px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-brand-logo img {
-    height: 72px !important;
-    width: auto !important;
-    max-height: 78px !important;
-  }
-}
-
-/* Logo no Rodapé (Footer - 120px) */
+/* Logo bem maior no Footer (110px) sem qualquer borda */
 .footer-brand-logo img {
-  height: 120px !important;
+  height: 110px !important;
   width: auto !important;
-  max-height: 140px !important;
+  max-height: 130px !important;
   object-fit: contain !important;
   border: none !important;
   border-radius: 0 !important;
