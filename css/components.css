@@ -732,7 +732,7 @@ SECTION 1: HERO
 
   .hero-content {
     min-height: auto;
-    padding: 84px 16px 28px;
+    padding: 110px 16px 28px;
   }
 
   .hero-copy {
@@ -751,7 +751,7 @@ SECTION 1: HERO
   }
 
   .hero-title {
-    font-size: clamp(1.85rem, 6.5vw, 2.25rem);
+    font-size: clamp(2.1rem, 7.5vw, 2.4rem);
     line-height: 1.18;
     margin-bottom: 10px;
     letter-spacing: -0.03em;
@@ -814,6 +814,14 @@ SECTION 1: HERO
   .hero-card-footer {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .fundadora-hero {
+    padding-top: 120px !important;
+  }
+
+  .ut-custom-017d14 {
+    padding: 30px 0 !important;
   }
 }
 
@@ -1005,6 +1013,10 @@ SECTION 1.5: SOBRE LIMA'S THERAPY
 @media (max-width: 1080px) {
   .sobre-limas-therapy {
     padding: 70px 0;
+  }
+
+  .fundadora-hero {
+    padding-top: 130px !important;
   }
 
   .sobre-grid {
@@ -6073,7 +6085,7 @@ HERO OPÃ‡ÃƒO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
 /* Mobile & Tablet Responsiveness */
 @media (max-width: 991px) {
   .hero-sobre-split {
-    padding-top: 100px;
+    padding-top: 125px;
     padding-bottom: 50px;
     min-height: auto;
   }
@@ -6119,7 +6131,7 @@ HERO OPÃ‡ÃƒO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
   }
 
   .hero-sobre-title {
-    font-size: clamp(1.6rem, 5.5vw, 2.2rem);
+    font-size: clamp(1.9rem, 6.5vw, 2.5rem);
     margin-bottom: 14px;
     line-height: 1.2;
   }
@@ -6162,18 +6174,22 @@ HERO OPÃ‡ÃƒO 2: SPLIT OVERLAY BANNER (SEAMLESS CLEAN TEXT)
 
 @media (max-width: 576px) {
   .hero-sobre-split {
-    padding-top: 95px;
+    padding-top: 120px;
     padding-bottom: 40px;
   }
 
   .hero-sobre-title {
-    font-size: clamp(1.4rem, 5.2vw, 1.75rem);
+    font-size: clamp(1.8rem, 7.5vw, 2.2rem);
     line-height: 1.2;
   }
 
   .hero-split-card .hero-actions a {
     flex: 1 1 100%;
     width: 100%;
+  }
+
+  .sobre-title, .hero-card-title, .ut-custom-541b97 {
+    font-size: clamp(1.8rem, 7.5vw, 2.2rem) !important;
   }
 }
 
@@ -22662,3 +22678,18 @@ html, body {
     transition: box-shadow 0.3s ease;
   }
 }
+
+/* =========================================================
+   FUNDADORA HERO RESPONSIVE PADDING ADJUSTMENTS
+   ========================================================= */
+@media (max-width: 1080px) {
+  section.fundadora-hero {
+    padding-top: 130px !important;
+  }
+}
+@media (max-width: 720px) {
+  section.fundadora-hero {
+    padding-top: 120px !important;
+  }
+}
+
