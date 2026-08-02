@@ -5,6 +5,7 @@ node_modules/
 *.py
 *.docx
 *.txt
+!robots.txt
 audit.py
 convert_avif.py
 check_images.py

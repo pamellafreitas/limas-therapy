@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://limastherapy.com.br/sitemap.xml
