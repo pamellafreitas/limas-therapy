@@ -17266,6 +17266,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 }
 
 .blog-article h2 {
+  line-height: 1.2;
   font-family: var(--font-serif);
   font-size: 2.25rem;
   color: var(--blog-dark);
@@ -17276,6 +17277,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 }
 
 .blog-article h3 {
+  line-height: 1.25;
   font-size: 1.5rem;
   color: var(--blog-dark);
   margin-top: 40px;
@@ -17753,7 +17755,8 @@ STYLES EXTRACTED FROM HTML <style> TAGS
   box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
 }
 
-.blog-search i {
+.blog-search i,
+.blog-search svg {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -18194,6 +18197,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 }
 
 .blog-article h2 {
+  line-height: 1.2;
   font-family: var(--font-serif);
   font-size: 2.25rem;
   color: var(--blog-dark);
@@ -18204,6 +18208,7 @@ STYLES EXTRACTED FROM HTML <style> TAGS
 }
 
 .blog-article h3 {
+  line-height: 1.25;
   font-size: 1.5rem;
   color: var(--blog-dark);
   margin-top: 40px;
