@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Clínica de bem-estar em Campo Grande, RJ. Massoterapia, fisioterapia, spa, dia da noiva e acompanhamento gestacional. Agende sua sessão." />
+  <meta name="description" content="Viva uma experiência de spa em Campo Grande, RJ, com tratamentos para relaxar, aliviar tensões e cuidar do seu bem-estar na Lima's Therapy." />
   <meta name="keywords" content="massoterapia campo grande rj, spa campo grande rj, fisioterapia campo grande rj, dia da noiva campo grande, massagem relaxante, drenagem linfática gestante" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Lima's Therapy" />
@@ -13,22 +13,22 @@
 
   <!-- Open Graph / Redes Sociais e WhatsApp -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Massoterapia e Spa em Campo Grande, RJ | Lima's Therapy" />
-  <meta property="og:description" content="Clínica de bem-estar em Campo Grande, RJ. Massoterapia, fisioterapia, spa, dia da noiva e acompanhamento gestacional. Agende sua sessão." />
+  <meta property="og:title" content="Spa e Bem-Estar em Campo Grande, RJ | Lima's Therapy" />
+  <meta property="og:description" content="Viva uma experiência de spa em Campo Grande, RJ, com tratamentos para relaxar, aliviar tensões e cuidar do seu bem-estar na Lima's Therapy." />
   <meta property="og:image" content="https://limastherapy.com.br/img/logo-limas.avif" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Lima's Therapy" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Massoterapia e Spa em Campo Grande, RJ | Lima's Therapy" />
-  <meta name="twitter:description" content="Clínica de bem-estar em Campo Grande, RJ. Massoterapia, fisioterapia, spa, dia da noiva e acompanhamento gestacional. Agende sua sessão." />
+  <meta name="twitter:title" content="Spa e Bem-Estar em Campo Grande, RJ | Lima's Therapy" />
+  <meta name="twitter:description" content="Viva uma experiência de spa em Campo Grande, RJ, com tratamentos para relaxar, aliviar tensões e cuidar do seu bem-estar na Lima's Therapy." />
   <meta name="twitter:image" content="https://limastherapy.com.br/img/logo-limas.avif" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="img/logo-limas.avif" />
 
-  <title>Clínica de bem-estar em Campo Grande. RJ | Lima's Therapy</title>
+  <title>Spa e Bem-Estar em Campo Grande, RJ | Lima's Therapy</title>
   <meta property="og:url" content="https://limastherapy.com.br/" />
   <link rel="canonical" href="https://limastherapy.com.br/" />
 
@@ -40,7 +40,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="css/tailwind-reset.css" />
-  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/components.css?v=3" />
 
   <script src="https://unpkg.com/lucide@0.462.0" defer></script>
 
@@ -198,38 +198,35 @@
       </div>
 
       <main>
-        <section class="hero-homecare" id="hero">
-          <div class="hero-shell">
-            <div class="hero-frame">
-              <div class="hero-bg">
-                <picture><source srcset="img/massagem-pedras-quentes.avif" type="image/avif"><img alt="Profissional realizando sessão de massoterapia com Lima's Therapy" src="img/massagem-pedras-quentes.avif" fetchpriority="high" decoding="async" width="1440" height="620"></picture>
+        <section class="hero-sobre-split" id="hero">
+          <!-- Right Widescreen Background Photo -->
+          <div class="hero-split-bg reveal reveal-fade-in">
+            <picture><source srcset="img/massagem-pedras-quentes.avif" type="image/avif"><img src="img/massagem-pedras-quentes.avif" alt="Profissional realizando sessão de massoterapia com Lima's Therapy" fetchpriority="high" decoding="async" width="1440" height="620"></picture>
+          </div>
+
+          <!-- Left Content Card -->
+          <div class="hero-split-shell">
+            <div class="hero-split-card reveal reveal-slide-left">
+              <div class="hero-sobre-badge">
+                <span class="hero-sobre-badge-pulse"></span>
+                Ambiente Acolhedor & Exclusivo
               </div>
-              <div class="hero-grid-lines">
-                <div class="hero-grid-line"></div>
-                <div class="hero-grid-line"></div>
-                <div class="hero-grid-line"></div>
-                <div class="hero-grid-line"></div>
+
+              <h1 class="hero-sobre-title">
+                Spa e Bem-Estar para relaxar <span class="hero-font-serif hero-sobre-title-accent">em Campo Grande, RJ</span>
+              </h1>
+
+              <div class="hero-sobre-quote-box">
+                <span>“Um caminho que leva você de volta para si”</span>
               </div>
-              <div class="hero-content">
-                <div class="hero-copy">
-                  <div class="hero-eyebrow">
-                    <span class="hero-eyebrow-pulse"></span>
-                    Ambiente Acolhedor & Exclusivo
-                  </div>
-                  <h1 class="hero-title">Clínica de Bem-Estar e Massoterapia<br><span
-                      class="hero-title-accent hero-font-serif">em Campo Grande, RJ</span></h1>
-                  <div class="hero-quote-highlight">
-                    <span>“Um caminho que leva você de volta para si”</span>
-                  </div>
-                  <p class="hero-description font-medium text-stone-950 reveal reveal-fade-up delay-100">No Lima's Therapy, você encontra massoterapia,
-                    fisioterapia reabilitatória, terapias integrativas, spa e tratamentos para gestantes em um ambiente
-                    acolhedor e pensado para o seu bem-estar. Cuidamos da sua saúde e qualidade de vida com atendimento
-                    personalizado em Campo Grande, Rio de Janeiro.</p>
-                  <div class="hero-actions">
-                    <a class="hero-btn-primary" href="#contact">Agendar Sessão</a>
-                    <a class="hero-btn-secondary" href="#services">Ver Tratamentos</a>
-                  </div>
-                </div>
+
+              <p class="hero-sobre-description reveal reveal-fade-up delay-100">
+                No Lima's Therapy, você encontra massoterapia, fisioterapia reabilitatória, terapias integrativas, spa e tratamentos para gestantes em um ambiente acolhedor e pensado para o seu bem-estar. Cuidamos da sua saúde e qualidade de vida com atendimento personalizado em Campo Grande, Rio de Janeiro.
+              </p>
+
+              <div class="hero-actions">
+                <a class="hero-btn-primary" href="#contact">Agendar Sessão</a>
+                <a class="hero-btn-secondary" href="#services">Ver Tratamentos</a>
               </div>
             </div>
           </div>
@@ -254,25 +251,25 @@
                 </div>
               </div>
               <div class="sobre-content">
-                <span class="sobre-kicker">NOSSA HISTÓRIA & PROPÓSITO</span>
-                <h2 class="sobre-title reveal reveal-fade-up">Sobre o <span class="hero-font-serif sobre-title-accent">Lima's Therapy</span>
+                <span class="sobre-kicker reveal reveal-fade-up">NOSSA HISTÓRIA & PROPÓSITO</span>
+                <h2 class="sobre-title reveal reveal-fade-up delay-100">Conheça o <span class="hero-font-serif sobre-title-accent">Lima's Therapy</span>: seu espaço de spa em Campo Grande, RJ
                 </h2>
-                <div class="sobre-founder-divider"></div>
-                <p class="sobre-description reveal reveal-fade-up delay-100">
+                <div class="sobre-founder-divider reveal reveal-fade-up delay-150"></div>
+                <p class="sobre-description reveal reveal-fade-up delay-200">
                   Fundado por <strong>Gabrielle Lima</strong>, fisioterapeuta com registro profissional ativo (CREFITO-2
                   456018-F), o Lima's Therapy une técnica clínica e sensibilidade terapêutica. A filosofia da casa é
                   simples: bem-estar de verdade não é luxo, é cuidado com propósito. Por isso, cada protocolo — do
                   relaxamento à reabilitação — é pensado para tratar a causa, não só o sintoma.
                 </p>
                 <div class="sobre-pillars">
-                  <div class="sobre-pillar-item">
+                  <div class="sobre-pillar-item reveal reveal-fade-up delay-300">
                     <div class="sobre-pillar-icon"><i data-lucide="heart-pulse"></i></div>
                     <div>
                       <strong>Técnica Clínica & Ciência</strong>
                       <span>Fisioterapia reabilitatória com embasamento</span>
                     </div>
                   </div>
-                  <div class="sobre-pillar-item">
+                  <div class="sobre-pillar-item reveal reveal-fade-up delay-400">
                     <div class="sobre-pillar-icon"><i data-lucide="sparkles"></i></div>
                     <div>
                       <strong>Cuidado com Propósito</strong>
@@ -280,7 +277,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="mt-8 reveal reveal-fade-up delay-150">
+                <div class="mt-8 reveal reveal-fade-up delay-400">
                   <a class="hero-btn-primary" href="fundadora">Conhecer a Fundadora</a>
                 </div>
               </div>
@@ -292,10 +289,10 @@
         <section class="tratamentos-limas-therapy" id="services">
           <div class="tratamentos-shell">
             <div class="tratamentos-head">
-              <span class="tratamentos-kicker">NOSSO PORTFÓLIO DE CUIDADOS</span>
-              <h2 class="tratamentos-title reveal reveal-fade-up">Nossos <span
-                  class="hero-font-serif tratamentos-title-accent">Tratamentos</span></h2>
-              <p class="tratamentos-subtitle reveal reveal-fade-up delay-100">
+              <span class="tratamentos-kicker reveal reveal-fade-up">NOSSOS TRATAMENTOS</span>
+              <h2 class="tratamentos-title reveal reveal-fade-up delay-100">Tratamentos de spa e bem-estar <span
+                  class="hero-font-serif tratamentos-title-accent">em Campo Grande, RJ</span></h2>
+              <p class="tratamentos-subtitle reveal reveal-fade-up delay-200">
                 O portfólio do Lima's Therapy foi desenhado para acompanhar você em diferentes momentos da vida: o dia
                 comum que pede uma pausa, a dor que exige reabilitação, a pele que pede um cuidado mais natural, ou a
                 rotina que só precisa de um pouco menos de pelos e um pouco mais de tempo livre.
@@ -304,7 +301,7 @@
 
             <div class="tratamentos-grid">
               <!-- Card 1: Massoterapia -->
-              <article class="tratamento-card reveal reveal-fade-up">
+              <article class="tratamento-card reveal reveal-fade-up delay-100">
                 <div class="tratamento-media">
                   <picture><source srcset="img/massoterapia-spa-campo-grande-rj.avif" type="image/avif"><img src="img/massoterapia-spa-campo-grande-rj.avif" alt="Sessão de Massoterapia no Lima's Therapy" loading="lazy" decoding="async" width="560" height="332"></picture>
                   <span class="tratamento-tag">12 Protocolos • Relaxamento & Spa</span>
@@ -323,7 +320,7 @@
               </article>
 
               <!-- Card 2: Fisioterapia Reabilitatória -->
-              <article class="tratamento-card reveal reveal-fade-up">
+              <article class="tratamento-card reveal reveal-fade-up delay-200">
                 <div class="tratamento-media">
                   <picture><source srcset="img/fisioterapia-reabilitacao-campo-grande-rj.avif" type="image/avif"><img src="img/fisioterapia-reabilitacao-campo-grande-rj.avif" alt="Fisioterapia Reabilitatória no Lima's Therapy" loading="lazy" decoding="async" width="560" height="332"></picture>
                   <span class="tratamento-tag">CREFITO-2 • Avaliação Individual</span>
@@ -342,13 +339,13 @@
               </article>
 
               <!-- Card 3: Terapias de Spa e Estética Natural -->
-              <article class="tratamento-card reveal reveal-fade-up">
+              <article class="tratamento-card reveal reveal-fade-up delay-300">
                 <div class="tratamento-media">
                   <picture><source srcset="img/estetica-natural-campo-grande-rj.avif" type="image/avif"><img src="img/estetica-natural-campo-grande-rj.avif" alt="Terapias de Spa e Estética Natural no Lima's Therapy" loading="lazy" decoding="async" width="560" height="332"></picture>
                   <span class="tratamento-tag">100% Vegano • Rituais Sensoriais</span>
                 </div>
                 <div class="tratamento-body">
-                  <h3 class="tratamento-card-title">Terapias de Spa e Estética Natural</h3>
+                  <h3 class="tratamento-card-title">Estética Natural</h3>
                   <p class="tratamento-card-text">
                     Protocolos faciais 100% veganos, pacotes de day spa e rituais sensoriais que unem estética e
                     autocuidado sem procedimentos invasivos.
@@ -361,7 +358,7 @@
               </article>
 
               <!-- Card 4: Depilação na Cera -->
-              <article class="tratamento-card reveal reveal-fade-up">
+              <article class="tratamento-card reveal reveal-fade-up delay-400">
                 <div class="tratamento-media">
                   <picture><source srcset="img/depilacao-cera-campo-grande-rj.avif" type="image/avif"><img src="img/depilacao-cera-campo-grande-rj.avif" alt="Depilação na Cera Terapêutica no Lima's Therapy" loading="lazy" decoding="async" width="560" height="332"></picture>
                   <span class="tratamento-tag">Alta Frequência • Assinatura Mensal</span>
@@ -380,7 +377,7 @@
               </article>
             </div>
 
-            <div class="tratamentos-cta-wrap">
+            <div class="tratamentos-cta-wrap reveal reveal-fade-up delay-500">
               <a class="tratamentos-cta-btn" href="tratamentos">
                 <span>Conhecer todos os tratamentos</span>
                 <i data-lucide="arrow-up-right"></i>
@@ -394,10 +391,10 @@
           <div class="noiva-shell">
             <div class="noiva-grid">
               <div class="noiva-content">
-                <span class="noiva-kicker">EXPERIÊNCIA EXCLUSIVA PRÉ-CASAMENTO</span>
-                <h2 class="noiva-title reveal reveal-fade-up">Dia da <span class="hero-font-serif noiva-title-accent">Noiva</span></h2>
-                <div class="noiva-divider"></div>
-                <p class="noiva-description reveal reveal-fade-up delay-100">
+                <span class="noiva-kicker reveal reveal-fade-up">EXPERIÊNCIA EXCLUSIVA PRÉ-CASAMENTO</span>
+                <h2 class="noiva-title reveal reveal-fade-up delay-100">Dia da <span class="hero-font-serif noiva-title-accent">Noiva</span></h2>
+                <div class="noiva-divider reveal reveal-fade-up delay-150"></div>
+                <p class="noiva-description reveal reveal-fade-up delay-200">
                   Para quem tem uma data marcada no calendário, o Lima's Therapy criou um ritual de autocuidado completo
                   antes do grande dia. Os pacotes Bronze, Prata e Ouro reúnem massagem, protocolos faciais e corporais
                   pensados para a noiva chegar ao altar leve, radiante e presente — e também há opções especiais para
@@ -405,17 +402,17 @@
                 </p>
 
                 <div class="noiva-highlights">
-                  <div class="noiva-pill-badge">
+                  <div class="noiva-pill-badge reveal reveal-fade-up delay-300">
                     <i data-lucide="crown"></i>
                     <span>Pacotes Bronze, Prata & Ouro</span>
                   </div>
-                  <div class="noiva-pill-badge">
+                  <div class="noiva-pill-badge reveal reveal-fade-up delay-400">
                     <i data-lucide="heart"></i>
                     <span>Atendimento para Noivas, Mães & Madrinhas</span>
                   </div>
                 </div>
 
-                <div class="noiva-cta-wrap">
+                <div class="noiva-cta-wrap reveal reveal-fade-up delay-400">
                   <a class="noiva-cta-btn" href="dia-da-noiva">
                     <span>Ver pacotes Dia da Noiva</span>
                     <i data-lucide="arrow-right"></i>
@@ -424,7 +421,7 @@
               </div>
 
               <div class="noiva-visual">
-                <div class="noiva-image-card reveal reveal-zoom-out">
+                <div class="noiva-image-card reveal reveal-zoom-out delay-200">
                   <picture><source srcset="img/noiva.avif" type="image/avif"><img src="img/noiva.avif" alt="Experiência Dia da Noiva no Lima's Therapy" loading="lazy" decoding="async" width="480" height="500"></picture>
                   <div class="noiva-floating-badge">
                     <i data-lucide="sparkles"></i>
@@ -441,7 +438,7 @@
           <div class="gestante-shell">
             <div class="gestante-grid">
               <div class="gestante-visual">
-                <div class="gestante-image-card reveal reveal-zoom-out">
+                <div class="gestante-image-card reveal reveal-zoom-out delay-200">
                   <picture><source srcset="img/spa-massagem-para-gestantes-rj.avif" type="image/avif"><img src="img/spa-massagem-para-gestantes-rj.avif" alt="Acompanhamento Gestante e Pós-Parto no Lima's Therapy" loading="lazy" decoding="async" width="480" height="500"></picture>
                   <div class="gestante-floating-badge">
                     <i data-lucide="shield-check"></i>
@@ -451,11 +448,11 @@
               </div>
 
               <div class="gestante-content">
-                <span class="gestante-kicker">CUIDADO CONTÍNUO & ESPECIALIZADO</span>
-                <h2 class="gestante-title reveal reveal-fade-up">Gestante & <span
+                <span class="gestante-kicker reveal reveal-fade-up">CUIDADO CONTÍNUO & ESPECIALIZADO</span>
+                <h2 class="gestante-title reveal reveal-fade-up delay-100">Gestante & <span
                     class="hero-font-serif gestante-title-accent">Pós-Parto</span></h2>
-                <div class="gestante-divider"></div>
-                <p class="gestante-description reveal reveal-fade-up delay-100">
+                <div class="gestante-divider reveal reveal-fade-up delay-150"></div>
+                <p class="gestante-description reveal reveal-fade-up delay-200">
                   A gestação e o pós-parto merecem um cuidado contínuo, não isolado. Por isso, criamos planos de
                   acompanhamento gestacional (Prata e Ouro) e um programa específico de recuperação pós-parto, com
                   massagem para gestante, taping gestacional, laserterapia e ILIB terapia conduzidos por fisioterapeuta
@@ -463,21 +460,21 @@
                 </p>
 
                 <div class="gestante-pillars-list">
-                  <div class="gestante-pillar-chip">
+                  <div class="gestante-pillar-chip reveal reveal-fade-up delay-300">
                     <i data-lucide="check-circle2"></i>
                     <span>Acompanhamento Gestacional Prata & Ouro</span>
                   </div>
-                  <div class="gestante-pillar-chip">
+                  <div class="gestante-pillar-chip reveal reveal-fade-up delay-400">
                     <i data-lucide="check-circle2"></i>
                     <span>Massagem Gestacional & Taping Terapêutico</span>
                   </div>
-                  <div class="gestante-pillar-chip">
+                  <div class="gestante-pillar-chip reveal reveal-fade-up delay-500">
                     <i data-lucide="check-circle2"></i>
                     <span>Laserterapia & ILIB Terapia na Recuperação</span>
                   </div>
                 </div>
 
-                <div class="gestante-cta-wrap">
+                <div class="gestante-cta-wrap reveal reveal-fade-up delay-400">
                   <a class="gestante-cta-btn" href="massagem-para-gestante">
                     <span>Conhecer o pacote gestacional</span>
                     <i data-lucide="arrow-right"></i>
@@ -492,33 +489,33 @@
         <section class="como-funciona" id="como-funciona">
           <div class="funciona-shell">
             <div class="funciona-head">
-              <span class="funciona-kicker">SUA JORNADA DE CUIDADO</span>
-              <h2 class="funciona-title reveal reveal-fade-up">Como <span class="hero-font-serif funciona-title-accent">Funciona</span></h2>
-              <p class="funciona-subtitle">
+              <span class="funciona-kicker reveal reveal-fade-up">SUA JORNADA DE CUIDADO</span>
+              <h2 class="funciona-title reveal reveal-fade-up delay-100">Como funciona o <span class="hero-font-serif funciona-title-accent">atendimento de spa e bem-estar</span></h2>
+              <p class="funciona-subtitle reveal reveal-fade-up delay-200">
                 Do primeiro contato ao plano de cuidado, a jornada no Lima's Therapy foi desenhada para ser simples: uma conversa inicial para entender sua necessidade, uma avaliação personalizada e a definição do protocolo mais indicado para o seu momento.
               </p>
             </div>
 
             <div class="funciona-steps">
-              <div class="funciona-step-card">
+              <div class="funciona-step-card reveal reveal-fade-up delay-100">
                 <span class="step-num">01</span>
                 <div class="step-icon"><i data-lucide="message-square-heart"></i></div>
                 <h3 class="step-title">Conversa Inicial</h3>
                 <p class="step-text">Entendemos suas queixas, histórico de saúde e rotina em um atendimento atencioso e humano.</p>
               </div>
 
-              <div class="funciona-step-arrow"><i data-lucide="chevron-right"></i></div>
+              <div class="funciona-step-arrow reveal reveal-fade-up delay-200"><i data-lucide="chevron-right"></i></div>
 
-              <div class="funciona-step-card">
+              <div class="funciona-step-card reveal reveal-fade-up delay-250">
                 <span class="step-num">02</span>
                 <div class="step-icon"><i data-lucide="clipboard-check"></i></div>
                 <h3 class="step-title">Avaliação Personalizada</h3>
                 <p class="step-text">Diagnóstico clínico com foco na causa raiz, mapeando os pontos exatos de tensão ou dor.</p>
               </div>
 
-              <div class="funciona-step-arrow"><i data-lucide="chevron-right"></i></div>
+              <div class="funciona-step-arrow reveal reveal-fade-up delay-350"><i data-lucide="chevron-right"></i></div>
 
-              <div class="funciona-step-card">
+              <div class="funciona-step-card reveal reveal-fade-up delay-400">
                 <span class="step-num">03</span>
                 <div class="step-icon"><i data-lucide="sparkles"></i></div>
                 <h3 class="step-title">Protocolo Sob Medida</h3>
@@ -526,7 +523,7 @@
               </div>
             </div>
 
-            <div class="funciona-cta-wrap">
+            <div class="funciona-cta-wrap reveal reveal-fade-up delay-500">
               <a class="funciona-cta-btn" href="#contact">
                 <span>Entender a jornada completa</span>
                 <i data-lucide="arrow-right"></i>
@@ -541,29 +538,29 @@
             <div class="clube-card-frame">
               <div class="clube-grid">
                 <div class="clube-content">
-                  <span class="clube-kicker">ASSINATURA RECORRENTE & BENEFÍCIOS</span>
-                  <h2 class="clube-title reveal reveal-fade-up">Clube <span class="hero-font-serif clube-title-accent">LT</span></h2>
-                  <div class="clube-divider"></div>
-                  <p class="clube-description">
+                  <span class="clube-kicker reveal reveal-fade-up">ASSINATURA RECORRENTE & BENEFÍCIOS</span>
+                  <h2 class="clube-title reveal reveal-fade-up delay-100">Clube <span class="hero-font-serif clube-title-accent">LT</span></h2>
+                  <div class="clube-divider reveal reveal-fade-up delay-150"></div>
+                  <p class="clube-description reveal reveal-fade-up delay-200">
                     Para quem já sabe que autocuidado não pode ser exceção, o Clube LT oferece sessões mensais recorrentes com atendimento prioritário.
                   </p>
 
                   <div class="clube-benefits-list">
-                    <div class="clube-benefit-item">
+                    <div class="clube-benefit-item reveal reveal-fade-up delay-300">
                       <i data-lucide="check-circle2"></i>
                       <span>Sessões mensais recorrentes garantidas</span>
                     </div>
-                    <div class="clube-benefit-item">
+                    <div class="clube-benefit-item reveal reveal-fade-up delay-400">
                       <i data-lucide="check-circle2"></i>
                       <span>Atendimento & horários prioritários</span>
                     </div>
-                    <div class="clube-benefit-item">
+                    <div class="clube-benefit-item reveal reveal-fade-up delay-500">
                       <i data-lucide="check-circle2"></i>
                       <span>Valores exclusivos para assinantes</span>
                     </div>
                   </div>
 
-                  <div class="clube-cta-wrap">
+                  <div class="clube-cta-wrap reveal reveal-fade-up delay-400">
                     <a class="clube-cta-btn" href="clube-lt">
                       <span>Conhecer os planos do Clube LT</span>
                       <i data-lucide="arrow-right"></i>
@@ -572,7 +569,7 @@
                 </div>
 
                 <div class="clube-badge-visual">
-                  <div class="clube-vip-card">
+                  <div class="clube-vip-card reveal reveal-zoom-out delay-200">
                     <div class="clube-vip-icon">
                       <i data-lucide="crown"></i>
                     </div>
@@ -593,16 +590,16 @@
         <section class="depoimentos-limas-therapy" id="depoimentos">
           <div class="depoimentos-shell">
             <div class="depoimentos-head">
-              <span class="depoimentos-kicker">HISTÓRIAS REAIS & TRANSFORMAÇÃO</span>
-              <h2 class="depoimentos-title reveal reveal-fade-up">Depoimentos de <span class="hero-font-serif depoimentos-title-accent">Quem Já Viveu a Experiência</span></h2>
-              <p class="depoimentos-subtitle reveal reveal-fade-up delay-100">
+              <span class="depoimentos-kicker reveal reveal-fade-up">HISTÓRIAS REAIS & TRANSFORMAÇÃO</span>
+              <h2 class="depoimentos-title reveal reveal-fade-up delay-100">Depoimentos de <span class="hero-font-serif depoimentos-title-accent">Quem Já Viveu a Experiência</span></h2>
+              <p class="depoimentos-subtitle reveal reveal-fade-up delay-200">
                 Nada fala mais alto do que quem já esteve na maca. Veja o que pacientes e clientes contam sobre a experiência de cuidado no Lima's Therapy.
               </p>
             </div>
 
             <div class="depoimentos-grid">
               <!-- Card 1: Isabela Souza -->
-              <article class="depoimento-card">
+              <article class="depoimento-card reveal reveal-fade-up delay-100">
                 <div class="depoimento-stars">
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
@@ -610,7 +607,7 @@
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
                 </div>
-                <p class="depoimento-quote reveal reveal-fade-up delay-100">
+                <p class="depoimento-quote">
                   “Com a rotina do trabalho eu sempre tô super agitada, ansiosa, as vezes tenho algumas crises de ansiedade… Em alguns desses dias, eu buscava uma massagem e sentia que minha mente finalmente “desligava” e eu conseguia relaxar. Mesmo no outro dia ainda conseguia sentir o efeito relaxante da massagem no corpo, a mente calma e organizada, conseguia fazer as coisas que precisava sem surtar e sem me sentir acelerada. Me ajudou muuuuuito”
                 </p>
                 <div class="depoimento-author">
@@ -623,7 +620,7 @@
               </article>
 
               <!-- Card 2: Gabriela Villela -->
-              <article class="depoimento-card">
+              <article class="depoimento-card reveal reveal-fade-up delay-250">
                 <div class="depoimento-stars">
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
@@ -631,7 +628,7 @@
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
                 </div>
-                <p class="depoimento-quote reveal reveal-fade-up delay-100">
+                <p class="depoimento-quote">
                   “Gabi, suas mãos são divinas ! Eu me sinto completamente em casa quando vou ao seu espaço. Cada detalhe que você pensa e que torna uma experiência única de relaxamento e o cuidado em cada toque torna o seu atendimento surreal! Com certeza voltarei mais vezes”
                 </p>
                 <div class="depoimento-author">
@@ -644,7 +641,7 @@
               </article>
 
               <!-- Card 3: Ana Carolina Tavares -->
-              <article class="depoimento-card">
+              <article class="depoimento-card reveal reveal-fade-up delay-400">
                 <div class="depoimento-stars">
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
@@ -652,7 +649,7 @@
                   <i data-lucide="star"></i>
                   <i data-lucide="star"></i>
                 </div>
-                <p class="depoimento-quote reveal reveal-fade-up delay-100">
+                <p class="depoimento-quote">
                   “Minha rotina é extremamente cansativa, e encontrar um espaço onde eu realmente consigo desligar e sentir a paz que preciso é algo raro. Mas no seu espaço, isso acontece de forma natural. Desde o momento em que entro, já sinto um acolhimento único, e durante o procedimento, cada toque, cada detalhe do seu trabalho transmite o carinho e o amor que você coloca no que faz. É um verdadeiro refúgio, onde o relaxamento acontece de verdade, corpo e mente. E até na hora de sair, dá vontade de ficar mais um pouquinho! Você tem um dom e um talento que fazem toda a diferença. Todos precisam conhecer essa massoterapeuta maravilhosa que você é! Muito obrigada por proporcionar essa experiência tão incrível. Você transforma vidas!”
                 </p>
                 <div class="depoimento-author">
@@ -673,25 +670,25 @@
             <div class="limmea-card-frame">
               <div class="limmea-grid">
                 <div class="limmea-content">
-                  <span class="limmea-kicker">AUTOCUIDADO EM CASA</span>
-                  <h2 class="limmea-title reveal reveal-fade-up">Conheça a <span class="hero-font-serif limmea-title-accent">Limméa</span></h2>
-                  <div class="limmea-divider"></div>
-                  <p class="limmea-description">
+                  <span class="limmea-kicker reveal reveal-fade-up">AUTOCUIDADO EM CASA</span>
+                  <h2 class="limmea-title reveal reveal-fade-up delay-100">Conheça a <span class="hero-font-serif limmea-title-accent">Limméa</span></h2>
+                  <div class="limmea-divider reveal reveal-fade-up delay-150"></div>
+                  <p class="limmea-description reveal reveal-fade-up delay-200">
                     A linha de produtos Limméa leva o cuidado da clínica para o dia a dia, com rituais de autocuidado pensados para prolongar os efeitos de cada sessão em casa.
                   </p>
 
                   <div class="limmea-features">
-                    <div class="limmea-feature-chip">
+                    <div class="limmea-feature-chip reveal reveal-fade-up delay-300">
                       <i data-lucide="leaf"></i>
                       <span>Formulação 100% Botânica & Natural</span>
                     </div>
-                    <div class="limmea-feature-chip">
+                    <div class="limmea-feature-chip reveal reveal-fade-up delay-400">
                       <i data-lucide="sparkles"></i>
                       <span>Prolonga o Bem-Estar da Clínica em Casa</span>
                     </div>
                   </div>
 
-                  <div class="limmea-cta-wrap">
+                  <div class="limmea-cta-wrap reveal reveal-fade-up delay-400">
                     <a class="limmea-cta-btn" href="limmea-produtos">
                       <span>Conheça os nossos produtos</span>
                       <i data-lucide="arrow-right"></i>
@@ -700,7 +697,7 @@
                 </div>
 
                 <div class="limmea-visual">
-                  <div class="limmea-product-badge font-serif">
+                  <div class="limmea-product-badge font-serif reveal reveal-zoom-out delay-200">
                     <span class="limmea-badge-brand">LIMMÉA</span>
                     <span class="limmea-badge-sub">LIMA'S THERAPY BOTANICALS</span>
                     <div class="limmea-badge-divider"></div>
@@ -717,21 +714,21 @@
           <div class="ut-custom-582c28 shell" >
             
             <div class="ut-text-center-mb60">
-              <span class="ut-custom-c32c95">CONTEÚDO E SAÚDE</span>
-              <h2 class="ut-custom-55a835">
+              <span class="ut-custom-c32c95 reveal reveal-fade-up">CONTEÚDO E SAÚDE</span>
+              <h2 class="ut-custom-55a835 reveal reveal-fade-up delay-100">
                 Leia no Nosso <span class="ut-custom-89b7f7">Blog</span>
               </h2>
-              <p class="ut-custom-432f3e">
+              <p class="ut-custom-432f3e reveal reveal-fade-up delay-200">
                 Dicas, orientações e artigos detalhados para ajudar você a cuidar da sua saúde, entender melhor nossos tratamentos e adotar hábitos conscientes de autocuidado.
               </p>
-              <div class="ut-divider-gold-mt24"></div>
+              <div class="ut-divider-gold-mt24 reveal reveal-fade-up delay-250"></div>
             </div>
 
             <!-- Blog Grid (Max 2 columns for a clean look with 2 articles) -->
-            <div class="ut-custom-b02984 home-blog-grid" >
+            <div class="ut-custom-b02984 home-blog-grid">
               
               <!-- Card 1: 12 Tipos de Massagem -->
-              <a href="12-tipos-de-massagem-relaxante-para-alivio-de-dores" class="home-blog-card">
+              <a href="12-tipos-de-massagem-relaxante-para-alivio-de-dores" class="home-blog-card reveal reveal-fade-up delay-100">
                 <div class="home-blog-img-wrap">
                   <picture><source srcset="img/massoterapia-spa-campo-grande-rj.avif" type="image/avif"><img src="img/massoterapia-spa-campo-grande-rj.avif" alt="12 Tipos de Massagem Relaxante" class="home-blog-img" loading="lazy" decoding="async" width="560" height="332"></picture>
                   <span class="home-blog-tag">Massoterapia</span>
@@ -756,7 +753,7 @@
               </a>
 
               <!-- Card 2: Drenagem Linfática na Gravidez -->
-              <a href="drenagem-linfatica-na-gravidez-beneficios" class="home-blog-card">
+              <a href="drenagem-linfatica-na-gravidez-beneficios" class="home-blog-card reveal reveal-fade-up delay-250">
                 <div class="home-blog-img-wrap">
                   <picture><source srcset="img/spa-massagem-para-gestantes-rj.avif" type="image/avif"><img src="img/spa-massagem-para-gestantes-rj.avif" alt="Drenagem Linfática na Gravidez" class="home-blog-img" loading="lazy" decoding="async" width="480" height="500"></picture>
                   <span class="home-blog-tag">Gestantes</span>
@@ -783,7 +780,7 @@
             </div>
 
             <!-- Footer Section link to all posts -->
-            <div class="ut-text-center">
+            <div class="ut-text-center reveal reveal-fade-up delay-400">
               <a class="ut-custom-0a76c7 hero-btn-primary" href="blog" >
                 Ver Todos os Artigos <i data-lucide="book-open" class="ut-icon-18"></i>
               </a>
@@ -796,15 +793,15 @@
         <section class="faq-limas-therapy" id="faq">
           <div class="faq-shell">
             <div class="faq-head">
-              <span class="faq-kicker">ESCLAREÇA SUAS DÚVIDAS</span>
-              <h2 class="faq-title reveal reveal-fade-up">Perguntas <span class="hero-font-serif faq-title-accent">Frequentes</span></h2>
-              <p class="faq-subtitle">
+              <span class="faq-kicker reveal reveal-fade-up">ESCLAREÇA SUAS DÚVIDAS</span>
+              <h2 class="faq-title reveal reveal-fade-up delay-100">Perguntas <span class="hero-font-serif faq-title-accent">Frequentes</span></h2>
+              <p class="faq-subtitle reveal reveal-fade-up delay-200">
                 Reunimos as dúvidas mais comuns sobre tratamentos, agendamento, dia da noiva e acompanhamento gestacional para facilitar sua decisão.
               </p>
             </div>
 
             <div class="faq-list">
-              <details class="faq-item" open>
+              <details class="faq-item reveal reveal-fade-up delay-100" open>
                 <summary class="faq-question">
                   <span>O que é o Lima's Therapy?</span>
                   <i data-lucide="chevron-down"></i>
@@ -814,7 +811,7 @@
                 </div>
               </details>
 
-              <details class="faq-item">
+              <details class="faq-item reveal reveal-fade-up delay-200">
                 <summary class="faq-question">
                   <span>Preciso de indicação médica para agendar?</span>
                   <i data-lucide="chevron-down"></i>
@@ -824,7 +821,7 @@
                 </div>
               </details>
 
-              <details class="faq-item">
+              <details class="faq-item reveal reveal-fade-up delay-300">
                 <summary class="faq-question">
                   <span>Como faço para agendar uma sessão?</span>
                   <i data-lucide="chevron-down"></i>
@@ -846,14 +843,14 @@
             <div class="contact-grid">
               <!-- Left Column: Info & WhatsApp CTA -->
               <div class="contact-info">
-                <span class="contact-kicker">ATENDIMENTO PERSONALIZADO</span>
-                <h2 class="contact-title reveal reveal-fade-up">Agende Sua <span class="hero-font-serif contact-title-accent">Consulta</span></h2>
-                <div class="contact-divider"></div>
-                <p class="contact-description">
+                <span class="contact-kicker reveal reveal-fade-up">ATENDIMENTO PERSONALIZADO</span>
+                <h2 class="contact-title reveal reveal-fade-up delay-100">Agende seu momento de <span class="hero-font-serif contact-title-accent">Spa em Campo Grande, RJ</span></h2>
+                <div class="contact-divider reveal reveal-fade-up delay-150"></div>
+                <p class="contact-description reveal reveal-fade-up delay-200">
                   O primeiro passo para voltar a se sentir bem no seu próprio corpo começa com uma mensagem. Fale agora com o Lima's Therapy e agende sua sessão em Campo Grande.
                 </p>
 
-                <div class="contact-direct-wrap">
+                <div class="contact-direct-wrap reveal reveal-fade-up delay-300">
                   <a class="contact-wsp-btn" href="https://wa.me/5521968107559?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20no%20Lima%27s%20Therapy!" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/>
@@ -864,14 +861,14 @@
                 </div>
 
                 <div class="contact-details-box">
-                  <div class="detail-item">
+                  <div class="detail-item reveal reveal-fade-up delay-400">
                     <i data-lucide="map-pin"></i>
                     <div>
                       <strong>Localização</strong>
                       <span>Estr. do Lameirão Pequeno, 156 - Campo Grande, RJ - CEP 23080-100</span>
                     </div>
                   </div>
-                  <div class="detail-item">
+                  <div class="detail-item reveal reveal-fade-up delay-500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/>
                       <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/>
@@ -885,7 +882,7 @@
               </div>
 
               <!-- Right Column: FormSubmit Form -->
-              <div class="contact-form-wrap">
+              <div class="contact-form-wrap reveal reveal-slide-left delay-200">
                 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                   <input type="hidden" name="access_key" value="7ebcb1a5-adac-4b14-ab33-27735ebad7d4">
                   <input type="hidden" name="subject" value="Novo Agendamento pelo Site - Lima's Therapy">
