@@ -170,4 +170,90 @@ document.addEventListener('DOMContentLoaded', function() {
 
   initStickyTOC();
 
+  // --- TOC SCROLLSPY (MARCAÇÃO DE SEÇÃO ATIVA DURANTE A LEITURA) ---
+  function initTOCScrollSpy() {
+    const allTocLinks = document.querySelectorAll('.blog-toc-list a');
+    if (!allTocLinks.length) return;
+
+    const sections = Array.from(allTocLinks).map(link => {
+      const href = link.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        const id = href.substring(1);
+        return document.getElementById(id);
+      }
+      return null;
+    }).filter(Boolean);
+
+    if (!sections.length) return;
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-80px 0px -40% 0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          allTocLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === entry.target.id) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => observer.observe(section));
+
+    // Smooth scroll suave com compensação do cabeçalho fixo
+    allTocLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          const targetEl = document.getElementById(href.substring(1));
+          if (targetEl) {
+            e.preventDefault();
+            const targetPosition = targetEl.getBoundingClientRect().top + window.pageYOffset - 110;
+            window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  }
+
+  initTOCScrollSpy();
+
+  // --- CONTROLE DO ÍNDICE FLUTUANTE RESPONSIVO NO MOBILE ---
+  function initMobileTOC() {
+    const tocBtn = document.getElementById('tocMobileBtn');
+    const tocMenu = document.getElementById('tocMenu');
+    
+    if (tocBtn && tocMenu) {
+      tocBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        tocMenu.classList.toggle('show-mobile');
+      });
+      
+      const tocLinks = tocMenu.querySelectorAll('a');
+      tocLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 992) {
+            tocMenu.classList.remove('show-mobile');
+          }
+        });
+      });
+
+      document.addEventListener('click', function(e) {
+        if (window.innerWidth <= 992 && tocMenu.classList.contains('show-mobile')) {
+          if (!tocMenu.contains(e.target) && !tocBtn.contains(e.target)) {
+            tocMenu.classList.remove('show-mobile');
+          }
+        }
+      });
+    }
+  }
+
+  initMobileTOC();
 });

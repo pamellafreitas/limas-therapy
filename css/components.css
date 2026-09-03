@@ -22778,6 +22778,34 @@ html, body {
 }
 
 /* =========================================================
+   ESTILIZAÇÃO DE LINKS INTERNOS DENTRO DE ARTIGOS DO BLOG
+   (EXCLUI BOTÕES DE CTA COMO .mega-cta-btn E .btn)
+   ========================================================= */
+.blog-article a:not(.mega-cta-btn):not(.btn):not(.hero-btn-primary):not(.hero-btn-secondary),
+.blog-article p a:not(.mega-cta-btn):not(.btn):not(.hero-btn-primary):not(.hero-btn-secondary),
+.blog-article li a:not(.mega-cta-btn):not(.btn):not(.hero-btn-primary):not(.hero-btn-secondary) {
+  color: var(--hc-accent-dark) !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(163, 126, 28, 0.5) !important;
+  text-underline-offset: 3px !important;
+}
+
+.blog-article a:not(.mega-cta-btn):not(.btn):hover,
+.blog-article p a:not(.mega-cta-btn):not(.btn):hover,
+.blog-article li a:not(.mega-cta-btn):not(.btn):hover {
+  color: var(--hc-accent-dark-yellow) !important;
+  text-decoration-color: var(--hc-accent-dark-yellow) !important;
+}
+
+/* Preserva o visual original do botão de CTA dentro do artigo */
+.blog-article .cta-banner a.mega-cta-btn,
+.blog-article a.mega-cta-btn {
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+/* =========================================================
    FUNDADORA HERO RESPONSIVE PADDING ADJUSTMENTS
    ========================================================= */
 @media (max-width: 1080px) {
